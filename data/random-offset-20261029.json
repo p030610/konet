@@ -1,0 +1,138 @@
+{
+  "exact_uniform_expectation": {
+    "original": {
+      "all_12": {
+        "rank_win_tie_half": 0.4567392676767677,
+        "strict_center_greater": 0.4567392676767677,
+        "mean_margin": -0.0016310238823662117
+      },
+      "near_6": {
+        "rank_win_tie_half": 0.47264835858585863,
+        "strict_center_greater": 0.47264835858585863,
+        "mean_margin": 0.007361861352978975
+      },
+      "far_6": {
+        "rank_win_tie_half": 0.4408301767676768,
+        "strict_center_greater": 0.4408301767676768,
+        "mean_margin": -0.010623909117711411
+      }
+    },
+    "konet_full_epoch9": {
+      "all_12": {
+        "rank_win_tie_half": 0.4459280303030303,
+        "strict_center_greater": 0.4368292297979798,
+        "mean_margin": -0.01992477042086184
+      },
+      "near_6": {
+        "rank_win_tie_half": 0.46466224747474755,
+        "strict_center_greater": 0.45025252525252524,
+        "mean_margin": -0.0015428671934443923
+      },
+      "far_6": {
+        "rank_win_tie_half": 0.4271938131313131,
+        "strict_center_greater": 0.4234059343434343,
+        "mean_margin": -0.03830667364827928
+      }
+    },
+    "konet_lora_r8a16_epoch5": {
+      "all_12": {
+        "rank_win_tie_half": 0.4706755050505051,
+        "strict_center_greater": 0.4706755050505051,
+        "mean_margin": -0.0061563886063077215
+      },
+      "near_6": {
+        "rank_win_tie_half": 0.4889046717171717,
+        "strict_center_greater": 0.4889046717171717,
+        "mean_margin": 0.007702131015016379
+      },
+      "far_6": {
+        "rank_win_tie_half": 0.4524463383838384,
+        "strict_center_greater": 0.4524463383838384,
+        "mean_margin": -0.02001490822763182
+      }
+    },
+    "ensemble_original_lora_alpha_0.25": {
+      "all_12": {
+        "rank_win_tie_half": 0.4677083333333333,
+        "strict_center_greater": 0.4677083333333333,
+        "mean_margin": -0.0027623650633516
+      },
+      "near_6": {
+        "rank_win_tie_half": 0.46938131313131304,
+        "strict_center_greater": 0.46938131313131304,
+        "mean_margin": 0.007446928768488324
+      },
+      "far_6": {
+        "rank_win_tie_half": 0.4660353535353535,
+        "strict_center_greater": 0.4660353535353535,
+        "mean_margin": -0.012971658895191513
+      }
+    },
+    "ensemble_original_lora_alpha_0.50": {
+      "all_12": {
+        "rank_win_tie_half": 0.46227904040404044,
+        "strict_center_greater": 0.4618055555555556,
+        "mean_margin": -0.0038937062443369728
+      },
+      "near_6": {
+        "rank_win_tie_half": 0.47332702020202017,
+        "strict_center_greater": 0.4723800505050505,
+        "mean_margin": 0.007531996183997682
+      },
+      "far_6": {
+        "rank_win_tie_half": 0.4512310606060606,
+        "strict_center_greater": 0.4512310606060606,
+        "mean_margin": -0.015319408672671621
+      }
+    },
+    "ensemble_original_lora_alpha_0.75": {
+      "all_12": {
+        "rank_win_tie_half": 0.4698863636363636,
+        "strict_center_greater": 0.4698863636363636,
+        "mean_margin": -0.005025047425322341
+      },
+      "near_6": {
+        "rank_win_tie_half": 0.4919349747474747,
+        "strict_center_greater": 0.4919349747474747,
+        "mean_margin": 0.007617063599507028
+      },
+      "far_6": {
+        "rank_win_tie_half": 0.4478377525252525,
+        "strict_center_greater": 0.4478377525252525,
+        "mean_margin": -0.017667158450151724
+      }
+    }
+  },
+  "fixed_seed1701_draw": {
+    "original": {
+      "rank_win_tie_half": 0.49318181818181817,
+      "strict_center_greater": 0.49318181818181817,
+      "mean_margin": 0.009618025052105761
+    },
+    "konet_full_epoch9": {
+      "rank_win_tie_half": 0.40975378787878786,
+      "strict_center_greater": 0.40407196969696973,
+      "mean_margin": -0.004363278432591348
+    },
+    "konet_lora_r8a16_epoch5": {
+      "rank_win_tie_half": 0.47755681818181817,
+      "strict_center_greater": 0.47755681818181817,
+      "mean_margin": -0.005525812552306863
+    },
+    "ensemble_original_lora_alpha_0.25": {
+      "rank_win_tie_half": 0.5,
+      "strict_center_greater": 0.5,
+      "mean_margin": 0.005832065651002607
+    },
+    "ensemble_original_lora_alpha_0.50": {
+      "rank_win_tie_half": 0.47613636363636364,
+      "strict_center_greater": 0.47613636363636364,
+      "mean_margin": 0.0020461062498994508
+    },
+    "ensemble_original_lora_alpha_0.75": {
+      "rank_win_tie_half": 0.4641098484848485,
+      "strict_center_greater": 0.4641098484848485,
+      "mean_margin": -0.0017398531512037053
+    }
+  }
+}
