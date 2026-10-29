@@ -1,30 +1,32 @@
-# KoNet
+# KoNet — 한국어 음성·입모양 정합 판별 개선
 
 박성재 · 202020814 · 아주대학교 소프트웨어학과
 
-한국어 발화의 영상·음성 동기화 판단 정확도 개선을 목표로 하는 KoNet 프로젝트입니다. 현재 공개 결과는 StableSyncNet의 한국어 적응과 AIHub 기반 오프라인 동기화 평가입니다. 애니메이션은 짧은 활용 예시이며 현재 학습·평가에 사용하지 않았습니다.
+사전 학습 StableSyncNet을 **AIHub 한국어 발화 데이터로 적응시켜 한국어 영상·음성 동기화 판단 정확도를 개선**하는 프로젝트입니다. 현재 KoNet Full/LoRA의 학습·평가에 사용한 데이터는 AIHub 538입니다. 애니메이션 영상은 활용을 보여 주는 선택적 예시이며 현재 학습·평가에 사용하지 않았습니다.
 
-- 프로젝트 사이트: https://p030610.github.io/konet/
-- 재현 안내: [reproducibility-20261029/README.md](reproducibility-20261029/README.md)
-- Baseline·KoNet 평가 CLI: [eval_korean_offsets.py](reproducibility-20261029/scripts/eval_korean_offsets.py)
-- 랜덤 오프셋 실험·테스트: [experiments-20261029/](reproducibility-20261029/experiments-20261029/)
-- 지표·보고서 생성: [report_korean_offsets.py](reproducibility-20261029/scripts/report_korean_offsets.py)
-- 저장된 실제 평가 결과: [results/](reproducibility-20261029/results/)
-- 실제 점수 수준 평가 데이터: [datasets/heldout_scores.csv](reproducibility-20261029/datasets/heldout_scores.csv) 및 [데이터 카드](reproducibility-20261029/datasets/heldout_scores_datacard.md)
-- 별도 애니메이션 예시 입력(미평가): [TA2.0 실제 영상 4개·설명·라이선스](reproducibility-20261029/public_animation_eval/README.md)
-- 평가 기록 선택 정보: [data-access/heldout-selection-hashed.json](reproducibility-20261029/data-access/heldout-selection-hashed.json)
-- 다운로드: [재현 보조 패키지 ZIP](reproducibility-20261029/konet-reproducibility-20261029.zip)
+## 코드·데이터·평가 바로 찾기
 
-## 평가 범위
+| 항목 | 실제 제공 내용과 위치 | 범위 |
+|---|---|---|
+| Baseline 코드 | [Baseline 안내](baseline/README.md), [원본 모델 로더](reproducibility-20261029/src/pose_aware_roi_generator/stable_syncnet_loss.py), [평가 CLI](reproducibility-20261029/scripts/eval_korean_offsets.py) | 원본 모델 호출·평가 코드 제공. upstream LatentSync와 가중치는 별도 준비 |
+| 실제 사용 데이터 | [AIHub 학습·평가 데이터 설명](dataset/README.md), [익명화 실제 평가 점수 CSV](reproducibility-20261029/datasets/heldout_scores.csv), [점수 데이터 카드](reproducibility-20261029/datasets/heldout_scores_datacard.md) | 학습 코호트·분할·취득 절차와 실제 점수 제공. AIHub 원본 AV·라벨은 재배포하지 않음 |
+| Evaluation 코드 | [평가 방법·실행 안내](evaluation/README.md), [점수 재계산기](reproducibility-20261029/datasets/recompute_heldout_scores.py), [랜덤 오프셋 코드·테스트](reproducibility-20261029/experiments-20261029/README.md) | 실제 저장 점수의 CPU 재계산 가능. 새 AV 추론에는 별도 데이터·모델 필요 |
 
-공식 StableSyncNet 원본, KoNet Full epoch 9, KoNet LoRA rank 8·alpha 16 epoch 5의 저장된 평가 결과를 제공합니다. 주 비교는 같은 held-out B-window에서 평가한 공통지원 44개 기록·4명 화자의 strict both-win입니다. 고정 시간차의 strict both-win과 랜덤 오프셋 순위 승률은 서로 다른 지표입니다.
+## 실제 한국어 학습 데이터
 
-CPU 지표 테스트와 합성 fixture 보고서 생성은 재현 안내에 기록된 범위에서 검증했습니다. 원본 AIHub 영상·음성, 전사 라벨, 학습 체크포인트는 포함하지 않습니다. 따라서 이 저장소만으로 AIHub에서 실제 AV 모델의 전체 평가를 즉시 재실행할 수는 없습니다. 실제 저장된 점수 수준 데이터와 CPU 재집계 코드를 제공하며, 선택적으로 볼 수 있는 별도 예시 자료로 TA2.0의 한국어 애니메이션 AV 4개를 포함합니다. 이 4개에서는 성능을 측정하지 않았으며 기존 AIHub 리더보드의 입력도 아닙니다. 모델과 적법하게 확보한 데이터 준비 방법, 평가 명령과 제한은 재현 안내를 확인하세요.
+AIHub 538 **립리딩(입모양) 음성인식 데이터**의 일부를 사용했습니다. Full과 LoRA 설정이 공유하는 현재 고정 반복 학습 `frozen40000_epoch0` 코호트의 실제 인덱스를 집계한 결과는 **40,000쌍 = 정합 20,000 + 비정합 20,000**, **15명 화자**, **42개 발화 기록 그룹**, **210개 시점별 영상 자산**입니다. 40,000개의 서로 다른 영상이나 전체 AIHub 데이터를 학습했다는 뜻이 아닙니다.
 
-사이트의 공개 영상은 기존 생성 모델의 정성 데모이며, KoNet 성능을 측정한 실제 held-out 데이터셋과 구분됩니다. TA2.0 공개 입력, 결과 집계, 선택 정보, 합성 지표 fixture는 원본 AIHub 평가 영상·음성을 대체하지 않습니다.
+화자 분할은 학습 15명·개발 validation 4명·test 4명입니다. 현재 표의 공통지원 평가 44기록·96창·4화자는 학습 40,000쌍과 별도입니다. 정확한 단위, 코호트 고정 방식과 원본 취득 절차는 [dataset/README.md](dataset/README.md)에 있습니다.
 
-## 수업 제출
+## 결과와 재현
 
-수업 저장소에는 `submission/Team_박성재_202020814.html` 파일 하나만 제출합니다. HTML의 스타일과 동작 코드는 내부에 포함하고, 영상과 재현 자료는 위 GitHub Pages 주소에서 읽습니다.
+- [프로젝트 사이트](https://p030610.github.io/konet/)
+- [전체 재현 안내](reproducibility-20261029/README.md)
+- [실제 평가 결과 JSON·CSV·보고서](reproducibility-20261029/results/)
+- [코드·점수 재현 보조 ZIP](reproducibility-20261029/konet-reproducibility-20261029.zip)
 
-외부 코드·모델·데이터·미디어의 권리는 각 원저작자에게 있습니다. 이 저장소는 제3자 자료에 새로운 라이선스를 부여하지 않습니다.
+원본 StableSyncNet, KoNet Full epoch9, KoNet LoRA rank8·alpha16 epoch5를 같은 한국어 held-out B-window에서 비교합니다. strict both-win과 랜덤 오프셋 순위 승률은 다른 지표입니다. 실제 점수의 CPU 재계산 및 검증 테스트를 제공하며, 원본 AIHub 영상·음성·전사 라벨·학습 체크포인트는 포함하지 않습니다. 따라서 저장소만으로 모델 재학습 또는 원본 AV 전체 재추론이 즉시 가능하다고 주장하지 않습니다.
+
+별도 TA2.0 애니메이션 4개와 기존 생성 모델 영상은 **선택적 활용 예시·향후 연구 참고자료**입니다. 현재 KoNet 학습 데이터나 성능 평가 입력이 아니며, 한국어 AIHub 결과를 대신하지 않습니다.
+
+외부 코드·모델·데이터·미디어는 각 원저작자의 라이선스와 이용 조건을 따릅니다.
