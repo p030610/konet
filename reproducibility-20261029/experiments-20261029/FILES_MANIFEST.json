@@ -1,0 +1,73 @@
+﻿{
+    "date":  "2026-10-29",
+    "kind":  "completed_random_offset_cpu_evaluation",
+    "methods":  [
+                    "original",
+                    "konet_full_epoch9",
+                    "konet_lora_r8a16_epoch5"
+                ],
+    "source_csv":  "../datasets/heldout_scores.csv",
+    "source_sha256":  "2221c5d75597d90f2d42092fc9700672911c18b366e3dd05422fe31e20994c80",
+    "verification":  {
+                         "numpy":  "1.26.4",
+                         "passed":  4,
+                         "unit_tests":  4,
+                         "gpu_inference_performed":  false,
+                         "portable_cli_exit":  0,
+                         "reference_metric_tolerance":  1E-12,
+                         "different_working_directory":  true,
+                         "python":  "3.10.11"
+                     },
+    "files":  [
+                  {
+                      "path":  "random_offset_manifest.json",
+                      "sha256":  "907cdda162df11188204796291b0e3b0e7dd8e4db8cf506a29fdb5e99a936c3e",
+                      "bytes":  849
+                  },
+                  {
+                      "path":  "random_offset_metrics.json",
+                      "sha256":  "2c450f04bd7621e4de8e567b74bd8968a7828280f8257e6f9d56a5aa8583761e",
+                      "bytes":  2331
+                  },
+                  {
+                      "path":  "random_offset_prespecification.md",
+                      "sha256":  "1eedb77ac839a1da14f8c50872af81f7848b31db4da1277146b5c3c69e0d7ea8",
+                      "bytes":  1360
+                  },
+                  {
+                      "path":  "random_offset_report.md",
+                      "sha256":  "9ab630680367edaabadd3124931b850b2b0880474c65f4f71f78275f382e348e",
+                      "bytes":  952
+                  },
+                  {
+                      "path":  "random_offset_report_ko.md",
+                      "sha256":  "e84f9ef3e9bb8d9191f77822fc71667b9bc46e040938b665757696cb3250e1a4",
+                      "bytes":  1269
+                  },
+                  {
+                      "path":  "random_offset_selection.csv",
+                      "sha256":  "f7c77e3c400e5afa4fb535ef6a99538490d1cbedb744d48ecbf529199f3783c7",
+                      "bytes":  4188
+                  },
+                  {
+                      "path":  "README.md",
+                      "sha256":  "5a7cd18a0d89b268059e6ebe9f996103dc652b2c026208c81fea83f5492fbbfa",
+                      "bytes":  3110
+                  },
+                  {
+                      "path":  "run_random_offset_probe.py",
+                      "sha256":  "3413784d328276a6bdd59d8a9b930539e6ac505c46e3c9b1ddb940bafd3fe50f",
+                      "bytes":  5713
+                  },
+                  {
+                      "path":  "test_random_offset.py",
+                      "sha256":  "74dd07c7b168e1dbc3314741c42def07221f6e7542d9f2c640c39f678a6f33eb",
+                      "bytes":  4057
+                  },
+                  {
+                      "path":  "reference/random_offset_metrics.json",
+                      "sha256":  "7141f95e4d32c3a14cdb8756066e6f85a62a9ed497983f1799e8b8f7c29d1879",
+                      "bytes":  6409
+                  }
+              ]
+}

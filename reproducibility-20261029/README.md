@@ -91,3 +91,6 @@ baseline raw와 해당 arm raw를 한 JSONL로 합친 뒤 report CLI에 실제 r
 
 
 
+
+## 추가 완료 평가 코드
+[2026-10-29 랜덤 오프셋 재현 코드·실제 선택 데이터·4개 CPU 테스트](experiments-20261029/README.md)를 포함합니다. Original/Full/LoRA 세 방법만 사용하며, 저장된 점수에 대한 평가입니다.

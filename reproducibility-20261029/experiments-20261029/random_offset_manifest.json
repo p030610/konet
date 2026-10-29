@@ -1,0 +1,41 @@
+{
+  "kind": "cached_random_offset_probe_v1",
+  "source_sha256": "2221c5d75597d90f2d42092fc9700672911c18b366e3dd05422fe31e20994c80",
+  "seed": 1701,
+  "targets_ms": [
+    -320,
+    -240,
+    -160,
+    -120,
+    -80,
+    -40,
+    40,
+    80,
+    120,
+    160,
+    240,
+    320
+  ],
+  "primary": "exact uniform expectation across 12 cached signed targets",
+  "secondary": "one fixed shared random draw per window",
+  "support": {
+    "windows": 96,
+    "recordings": 44,
+    "speakers": 4
+  },
+  "draw_target_counts": {
+    "-320": 10,
+    "-240": 7,
+    "-160": 7,
+    "-120": 14,
+    "-80": 13,
+    "-40": 4,
+    "40": 9,
+    "80": 7,
+    "120": 7,
+    "160": 7,
+    "240": 6,
+    "320": 5
+  },
+  "note": "Exploratory score-ordering diagnostic; no held-out model selection or binary synchronization claim."
+}

@@ -3,7 +3,7 @@ const rowsElement = document.querySelector('#leaderboard-rows');
 const statusElement = document.querySelector('#board-status');
 const modelFilter = document.querySelector('#model-filter');
 const buttons = [...document.querySelectorAll('[data-distance]')];
-let distance = 80;
+let distance = 120;
 let visibleRows = [];
 function cell(tag,text,className=''){const node=document.createElement(tag);node.textContent=text;node.className=className;return node;}
 function renderBoard(){
