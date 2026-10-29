@@ -1,0 +1,12 @@
+-r requirements-report.txt
+torch==2.5.1
+omegaconf==2.3.0
+opencv-python==4.9.0.80
+librosa==0.10.1
+soundfile==0.14.0
+diffusers==0.32.2
+transformers==4.48.0
+einops==0.7.0
+safetensors==0.8.0
+# Additional official LatentSync / InsightFace runtime prerequisites required.
+# Select matching CUDA or CPU PyTorch index explicitly; this is not a full lockfile.

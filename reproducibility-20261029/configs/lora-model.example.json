@@ -1,0 +1,15 @@
+{
+    "model":  {
+                  "kind":  "stable_syncnet",
+                  "feature_dim":  2,
+                  "vendor_root":  "vendor/LatentSync",
+                  "architecture_config":  "configs/syncnet_16_pixel_attn.yaml",
+                  "base_checkpoint":  "checkpoints/stable_syncnet.pt",
+                  "lora":  {
+                               "kind":  "attention_lora_v1",
+                               "rank":  8,
+                               "alpha":  16
+                           }
+              },
+    "note":  "Model-only evaluation template; paths must be adapted. No training or raw data included."
+}

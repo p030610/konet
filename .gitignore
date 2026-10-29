@@ -1,0 +1,14 @@
+.env
+.env.*
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+checkpoints/
+private-data/
+local-smoke-output/
+*.pt
+*.pth
+*.safetensors
+*.pem
+*.key

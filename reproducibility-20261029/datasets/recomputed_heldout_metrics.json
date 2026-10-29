@@ -1,0 +1,206 @@
+{
+  "konet_full_epoch9": {
+    "40": {
+      "negative_win": 0.43011363636363636,
+      "positive_win": 0.4821022727272727,
+      "signed_directional": 0.4561079545454546,
+      "strict_both_win": 0.12897727272727275,
+      "mean_minimum_margin": -0.05577946428810892,
+      "speaker_speaker_02": 0.48863636363636365,
+      "speaker_speaker_03": 0.4545454545454546,
+      "speaker_speaker_04": 0.46875,
+      "speaker_speaker_01": 0.4125
+    },
+    "80": {
+      "negative_win": 0.41515151515151516,
+      "positive_win": 0.5159090909090909,
+      "signed_directional": 0.46553030303030296,
+      "strict_both_win": 0.21003787878787877,
+      "mean_minimum_margin": -0.08489015918969758,
+      "speaker_speaker_02": 0.46590909090909094,
+      "speaker_speaker_03": 0.45454545454545453,
+      "speaker_speaker_04": 0.47916666666666663,
+      "speaker_speaker_01": 0.46249999999999997
+    },
+    "120": {
+      "negative_win": 0.4096590909090909,
+      "positive_win": 0.5350378787878788,
+      "signed_directional": 0.47234848484848485,
+      "strict_both_win": 0.2251893939393939,
+      "mean_minimum_margin": -0.11317380111718858,
+      "speaker_speaker_02": 0.46590909090909094,
+      "speaker_speaker_03": 0.4318181818181818,
+      "speaker_speaker_04": 0.5416666666666667,
+      "speaker_speaker_01": 0.45
+    },
+    "160": {
+      "negative_win": 0.4734848484848485,
+      "positive_win": 0.4520833333333334,
+      "signed_directional": 0.4627840909090909,
+      "strict_both_win": 0.23920454545454545,
+      "mean_minimum_margin": -0.11730766874039497,
+      "speaker_speaker_02": 0.40909090909090906,
+      "speaker_speaker_03": 0.45454545454545453,
+      "speaker_speaker_04": 0.5625,
+      "speaker_speaker_01": 0.425
+    },
+    "240": {
+      "negative_win": 0.3984848484848485,
+      "positive_win": 0.47225378787878786,
+      "signed_directional": 0.4353693181818182,
+      "strict_both_win": 0.27717803030303034,
+      "mean_minimum_margin": -0.1570912811951795,
+      "speaker_speaker_02": 0.4204545454545454,
+      "speaker_speaker_03": 0.3522727272727273,
+      "speaker_speaker_04": 0.59375,
+      "speaker_speaker_01": 0.375
+    },
+    "320": {
+      "negative_win": 0.33361742424242424,
+      "positive_win": 0.43323863636363635,
+      "signed_directional": 0.3834280303030303,
+      "strict_both_win": 0.23162878787878788,
+      "mean_minimum_margin": -0.20656831912439497,
+      "speaker_speaker_02": 0.4318181818181818,
+      "speaker_speaker_03": 0.2727272727272727,
+      "speaker_speaker_04": 0.47916666666666663,
+      "speaker_speaker_01": 0.35
+    }
+  },
+  "konet_lora_r8a16_epoch5": {
+    "40": {
+      "negative_win": 0.453030303030303,
+      "positive_win": 0.521875,
+      "signed_directional": 0.4874526515151515,
+      "strict_both_win": 0.16789772727272725,
+      "mean_minimum_margin": -0.05901764649182431,
+      "speaker_speaker_02": 0.5113636363636364,
+      "speaker_speaker_03": 0.5113636363636364,
+      "speaker_speaker_04": 0.48958333333333337,
+      "speaker_speaker_01": 0.4375
+    },
+    "80": {
+      "negative_win": 0.440625,
+      "positive_win": 0.5002840909090909,
+      "signed_directional": 0.47045454545454546,
+      "strict_both_win": 0.1897727272727273,
+      "mean_minimum_margin": -0.08545651766334952,
+      "speaker_speaker_02": 0.46590909090909094,
+      "speaker_speaker_03": 0.46590909090909094,
+      "speaker_speaker_04": 0.5625,
+      "speaker_speaker_01": 0.3875
+    },
+    "120": {
+      "negative_win": 0.4883522727272727,
+      "positive_win": 0.5292613636363637,
+      "signed_directional": 0.5088068181818182,
+      "strict_both_win": 0.259280303030303,
+      "mean_minimum_margin": -0.08678478123492359,
+      "speaker_speaker_02": 0.5113636363636364,
+      "speaker_speaker_03": 0.5113636363636364,
+      "speaker_speaker_04": 0.5625,
+      "speaker_speaker_01": 0.44999999999999996
+    },
+    "160": {
+      "negative_win": 0.46912878787878787,
+      "positive_win": 0.5345643939393939,
+      "signed_directional": 0.5018465909090909,
+      "strict_both_win": 0.2583333333333333,
+      "mean_minimum_margin": -0.0990264777395315,
+      "speaker_speaker_02": 0.46590909090909094,
+      "speaker_speaker_03": 0.5227272727272727,
+      "speaker_speaker_04": 0.59375,
+      "speaker_speaker_01": 0.425
+    },
+    "240": {
+      "negative_win": 0.45994318181818183,
+      "positive_win": 0.44479166666666664,
+      "signed_directional": 0.4523674242424242,
+      "strict_both_win": 0.2609848484848485,
+      "mean_minimum_margin": -0.1534864484928257,
+      "speaker_speaker_02": 0.3977272727272727,
+      "speaker_speaker_03": 0.4659090909090909,
+      "speaker_speaker_04": 0.5833333333333333,
+      "speaker_speaker_01": 0.3625
+    },
+    "320": {
+      "negative_win": 0.4185606060606061,
+      "positive_win": 0.38768939393939394,
+      "signed_directional": 0.403125,
+      "strict_both_win": 0.2672348484848485,
+      "mean_minimum_margin": -0.15151971283774102,
+      "speaker_speaker_02": 0.375,
+      "speaker_speaker_03": 0.375,
+      "speaker_speaker_04": 0.5,
+      "speaker_speaker_01": 0.3625
+    }
+  },
+  "original": {
+    "40": {
+      "negative_win": 0.4609848484848485,
+      "positive_win": 0.5046401515151515,
+      "signed_directional": 0.4828125,
+      "strict_both_win": 0.19100378787878786,
+      "mean_minimum_margin": -0.050029603611348464,
+      "speaker_speaker_02": 0.38636363636363635,
+      "speaker_speaker_03": 0.48863636363636365,
+      "speaker_speaker_04": 0.59375,
+      "speaker_speaker_01": 0.4625
+    },
+    "80": {
+      "negative_win": 0.4557765151515151,
+      "positive_win": 0.5102272727272728,
+      "signed_directional": 0.4830018939393939,
+      "strict_both_win": 0.21429924242424242,
+      "mean_minimum_margin": -0.0790934296034909,
+      "speaker_speaker_02": 0.4545454545454546,
+      "speaker_speaker_03": 0.4545454545454546,
+      "speaker_speaker_04": 0.5729166666666666,
+      "speaker_speaker_01": 0.45
+    },
+    "120": {
+      "negative_win": 0.4251893939393939,
+      "positive_win": 0.47907196969696975,
+      "signed_directional": 0.45213068181818183,
+      "strict_both_win": 0.21373106060606062,
+      "mean_minimum_margin": -0.08088606710161594,
+      "speaker_speaker_02": 0.4318181818181818,
+      "speaker_speaker_03": 0.4204545454545454,
+      "speaker_speaker_04": 0.53125,
+      "speaker_speaker_01": 0.425
+    },
+    "160": {
+      "negative_win": 0.4303030303030303,
+      "positive_win": 0.434375,
+      "signed_directional": 0.4323390151515151,
+      "strict_both_win": 0.2421401515151515,
+      "mean_minimum_margin": -0.09130765663466027,
+      "speaker_speaker_02": 0.4318181818181818,
+      "speaker_speaker_03": 0.4204545454545454,
+      "speaker_speaker_04": 0.48958333333333337,
+      "speaker_speaker_01": 0.38749999999999996
+    },
+    "240": {
+      "negative_win": 0.46458333333333335,
+      "positive_win": 0.4275568181818182,
+      "signed_directional": 0.4460700757575758,
+      "strict_both_win": 0.262405303030303,
+      "mean_minimum_margin": -0.124649449185488,
+      "speaker_speaker_02": 0.4545454545454546,
+      "speaker_speaker_03": 0.4318181818181818,
+      "speaker_speaker_04": 0.5729166666666667,
+      "speaker_speaker_01": 0.325
+    },
+    "320": {
+      "negative_win": 0.46458333333333335,
+      "positive_win": 0.42357954545454546,
+      "signed_directional": 0.4440814393939394,
+      "strict_both_win": 0.32376893939393936,
+      "mean_minimum_margin": -0.12766574829651192,
+      "speaker_speaker_02": 0.34090909090909094,
+      "speaker_speaker_03": 0.5,
+      "speaker_speaker_04": 0.5104166666666666,
+      "speaker_speaker_01": 0.42500000000000004
+    }
+  }
+}

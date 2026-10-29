@@ -1,0 +1,161 @@
+﻿{
+    "status":  "PASS",
+    "verified":  "2026-10-29",
+    "comparison":  "independent score evaluator against packaged archived paired strict-both-win/margin table",
+    "tolerance":  1E-12,
+    "model_distance_cells":  18,
+    "scalar_checks":  36,
+    "rows":  288,
+    "speakers":  [
+                     "speaker_01",
+                     "speaker_02",
+                     "speaker_03",
+                     "speaker_04"
+                 ],
+    "comparisons":  [
+                        {
+                            "model":  "original",
+                            "distance_ms":  40,
+                            "strict_both_win":  0.19100378787878786,
+                            "mean_minimum_margin":  -0.050029603611348464,
+                            "strict_absolute_difference":  0.00000000000000000,
+                            "margin_absolute_difference":  0.000000000000000006
+                        },
+                        {
+                            "model":  "original",
+                            "distance_ms":  80,
+                            "strict_both_win":  0.21429924242424242,
+                            "mean_minimum_margin":  -0.0790934296034909,
+                            "strict_absolute_difference":  0.00000000000000000,
+                            "margin_absolute_difference":  0.00000000000000001
+                        },
+                        {
+                            "model":  "original",
+                            "distance_ms":  120,
+                            "strict_both_win":  0.21373106060606062,
+                            "mean_minimum_margin":  -0.08088606710161594,
+                            "strict_absolute_difference":  0.00000000000000006,
+                            "margin_absolute_difference":  0.00000000000000001
+                        },
+                        {
+                            "model":  "original",
+                            "distance_ms":  160,
+                            "strict_both_win":  0.2421401515151515,
+                            "mean_minimum_margin":  -0.09130765663466027,
+                            "strict_absolute_difference":  0.0000000000000000,
+                            "margin_absolute_difference":  0.00000000000000000
+                        },
+                        {
+                            "model":  "original",
+                            "distance_ms":  240,
+                            "strict_both_win":  0.262405303030303,
+                            "mean_minimum_margin":  -0.124649449185488,
+                            "strict_absolute_difference":  0.000000000000000,
+                            "margin_absolute_difference":  0.000000000000000
+                        },
+                        {
+                            "model":  "original",
+                            "distance_ms":  320,
+                            "strict_both_win":  0.32376893939393936,
+                            "mean_minimum_margin":  -0.12766574829651192,
+                            "strict_absolute_difference":  0.00000000000000004,
+                            "margin_absolute_difference":  0.00000000000000000
+                        },
+                        {
+                            "model":  "konet_full_epoch9",
+                            "distance_ms":  40,
+                            "strict_both_win":  0.12897727272727275,
+                            "mean_minimum_margin":  -0.05577946428810892,
+                            "strict_absolute_difference":  0.00000000000000003,
+                            "margin_absolute_difference":  0.000000000000000006
+                        },
+                        {
+                            "model":  "konet_full_epoch9",
+                            "distance_ms":  80,
+                            "strict_both_win":  0.21003787878787877,
+                            "mean_minimum_margin":  -0.08489015918969758,
+                            "strict_absolute_difference":  0.00000000000000003,
+                            "margin_absolute_difference":  0.00000000000000001
+                        },
+                        {
+                            "model":  "konet_full_epoch9",
+                            "distance_ms":  120,
+                            "strict_both_win":  0.2251893939393939,
+                            "mean_minimum_margin":  -0.11317380111718858,
+                            "strict_absolute_difference":  0.00000000000000007,
+                            "margin_absolute_difference":  0.00000000000000001
+                        },
+                        {
+                            "model":  "konet_full_epoch9",
+                            "distance_ms":  160,
+                            "strict_both_win":  0.23920454545454545,
+                            "mean_minimum_margin":  -0.11730766874039497,
+                            "strict_absolute_difference":  0.00000000000000000,
+                            "margin_absolute_difference":  0.00000000000000000
+                        },
+                        {
+                            "model":  "konet_full_epoch9",
+                            "distance_ms":  240,
+                            "strict_both_win":  0.27717803030303034,
+                            "mean_minimum_margin":  -0.1570912811951795,
+                            "strict_absolute_difference":  0.00000000000000004,
+                            "margin_absolute_difference":  0.00000000000000002
+                        },
+                        {
+                            "model":  "konet_full_epoch9",
+                            "distance_ms":  320,
+                            "strict_both_win":  0.23162878787878788,
+                            "mean_minimum_margin":  -0.20656831912439497,
+                            "strict_absolute_difference":  0.00000000000000000,
+                            "margin_absolute_difference":  0.00000000000000000
+                        },
+                        {
+                            "model":  "konet_lora_r8a16_epoch5",
+                            "distance_ms":  40,
+                            "strict_both_win":  0.16789772727272725,
+                            "mean_minimum_margin":  -0.05901764649182431,
+                            "strict_absolute_difference":  0.00000000000000003,
+                            "margin_absolute_difference":  0.00000000000000000
+                        },
+                        {
+                            "model":  "konet_lora_r8a16_epoch5",
+                            "distance_ms":  80,
+                            "strict_both_win":  0.1897727272727273,
+                            "mean_minimum_margin":  -0.08545651766334952,
+                            "strict_absolute_difference":  0.00000000000000004,
+                            "margin_absolute_difference":  0.00000000000000001
+                        },
+                        {
+                            "model":  "konet_lora_r8a16_epoch5",
+                            "distance_ms":  120,
+                            "strict_both_win":  0.259280303030303,
+                            "mean_minimum_margin":  -0.08678478123492359,
+                            "strict_absolute_difference":  0.000000000000000,
+                            "margin_absolute_difference":  0.00000000000000000
+                        },
+                        {
+                            "model":  "konet_lora_r8a16_epoch5",
+                            "distance_ms":  160,
+                            "strict_both_win":  0.2583333333333333,
+                            "mean_minimum_margin":  -0.0990264777395315,
+                            "strict_absolute_difference":  0.0000000000000000,
+                            "margin_absolute_difference":  0.0000000000000000
+                        },
+                        {
+                            "model":  "konet_lora_r8a16_epoch5",
+                            "distance_ms":  240,
+                            "strict_both_win":  0.2609848484848485,
+                            "mean_minimum_margin":  -0.1534864484928257,
+                            "strict_absolute_difference":  0.0000000000000000,
+                            "margin_absolute_difference":  0.00000000000000002
+                        },
+                        {
+                            "model":  "konet_lora_r8a16_epoch5",
+                            "distance_ms":  320,
+                            "strict_both_win":  0.2672348484848485,
+                            "mean_minimum_margin":  -0.15151971283774102,
+                            "strict_absolute_difference":  0.0000000000000000,
+                            "margin_absolute_difference":  0.00000000000000000
+                        }
+                    ]
+}

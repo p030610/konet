@@ -1,0 +1,755 @@
+﻿{
+    "schema_version":  1,
+    "kind":  "authored_selection_metadata_not_av_dataset",
+    "protocol":  "ko-offset-a-to-b-v1",
+    "source_recordings_sha256":  "48dea24db4c87864a0dd6dcd3fb484cccd1b6bf1b2b4683fbadcf322eb086a53",
+    "recording_id_hash":  "SHA256 of exact original recording_id UTF-8 bytes; lowercase hex",
+    "speaker_ids":  [
+                        "C282",
+                        "C371",
+                        "C580",
+                        "C613"
+                    ],
+    "recording_count":  48,
+    "frame_rate":  25,
+    "window_frames":  16,
+    "note":  "Contains author-selected frame indices and calibration outcomes only; no raw recording IDs, paths, transcripts, audiovisual data or source annotations. Does not authorize redistribution of AIHub data. Match hashed IDs only against lawfully acquired local data.",
+    "records":  [
+                    {
+                        "recording_id_sha256":  "a0ec357396e0c88142244ad4efa4ea538294d9385456b790192bab31bdf1f394",
+                        "speaker_id":  "C371",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  -560
+                    },
+                    {
+                        "recording_id_sha256":  "6e5059b316dd50f3e4eb0ac604fbc8120e2e0fa3beba3066e0bcc33db892b09c",
+                        "speaker_id":  "C371",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48,
+                                               64,
+                                               80
+                                           ],
+                        "b_frame_starts":  [
+                                               144,
+                                               160,
+                                               176,
+                                               192
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  -40
+                    },
+                    {
+                        "recording_id_sha256":  "e9fa24721caf2aadf51799de77dd3c4cf248740422e880f33fe9caead617d1c6",
+                        "speaker_id":  "C371",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               176,
+                                               192
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  -40
+                    },
+                    {
+                        "recording_id_sha256":  "dd574c161636411f752cc9afe00a77da6006f13629e5fe7222621b5b7d0631d7",
+                        "speaker_id":  "C371",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  -440
+                    },
+                    {
+                        "recording_id_sha256":  "c710b2ab0927b0b4a1af5cc67bdabc6e1bbd8b556bb40eb7e5458cecabf15cbd",
+                        "speaker_id":  "C371",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  -400
+                    },
+                    {
+                        "recording_id_sha256":  "1d284ae83f4606cdb55ba03270ba2f0ebc2afc0bde24f13337d88f4702131fff",
+                        "speaker_id":  "C371",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  -360
+                    },
+                    {
+                        "recording_id_sha256":  "3ea1ac84171ef19c292e2fd8306880d28d84b41392b2d192144ebd25e55aa3dc",
+                        "speaker_id":  "C371",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  -360
+                    },
+                    {
+                        "recording_id_sha256":  "d817d4432600c96958cb7678de15c28eaf9b5ef9bcdd547872220688df78a85c",
+                        "speaker_id":  "C371",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  480
+                    },
+                    {
+                        "recording_id_sha256":  "f40f0774f9b23d7551768436662b2da38db8068cfdb5784a6ef6c93303b52647",
+                        "speaker_id":  "C371",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  -320
+                    },
+                    {
+                        "recording_id_sha256":  "c1317ba3df7f3399bbe34ab1c31ac329019227aa7a560ba8f0b943648496071a",
+                        "speaker_id":  "C371",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  -240
+                    },
+                    {
+                        "recording_id_sha256":  "4e448bdf7b9e2800efc63a7d5cdbc715a547ccc40cb8cc1c705a9354555e71e0",
+                        "speaker_id":  "C371",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "boundary",
+                        "selected_offset_ms":  null
+                    },
+                    {
+                        "recording_id_sha256":  "5cbab06aa7ada9c364867deadeb66a554ed7c8848c9e78dbaf254eed87e1d522",
+                        "speaker_id":  "C371",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  360
+                    },
+                    {
+                        "recording_id_sha256":  "90a6856ccb355344bd06ca0259f475ca08381449212537247c44065ebaaa2386",
+                        "speaker_id":  "C580",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "boundary",
+                        "selected_offset_ms":  null
+                    },
+                    {
+                        "recording_id_sha256":  "e86251baaffdd9e637dd6d539624c4008ea0d7545acb5f437590838ce3044a52",
+                        "speaker_id":  "C580",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  400
+                    },
+                    {
+                        "recording_id_sha256":  "78fcc4a9be190ab6d40df6fdb66ffaf055808d1471987628fd84baee0791d58f",
+                        "speaker_id":  "C580",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  -600
+                    },
+                    {
+                        "recording_id_sha256":  "033bc2a167a2a6376d323bb9e5c8085f299a7eb5cf9295abb580dbfbf98170bf",
+                        "speaker_id":  "C580",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  440
+                    },
+                    {
+                        "recording_id_sha256":  "00dca317c1128933d3d844603e5d020f7fff6ccbbf4744ca15a1a024fec3fc1a",
+                        "speaker_id":  "C580",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  -280
+                    },
+                    {
+                        "recording_id_sha256":  "c12bd2c44d892367cd74742ad260626263873db8140003c586af77a38b01d722",
+                        "speaker_id":  "C580",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48,
+                                               64,
+                                               80
+                                           ],
+                        "b_frame_starts":  [
+                                               144,
+                                               160,
+                                               176,
+                                               192
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  440
+                    },
+                    {
+                        "recording_id_sha256":  "bb87800099615b5c355cdb20011703e2ca5437f403ea45081d3d46aee1139792",
+                        "speaker_id":  "C580",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  480
+                    },
+                    {
+                        "recording_id_sha256":  "76e2e7a777d0015095918efbf4eec6a8969d2f87913c859f18e7519e76dff798",
+                        "speaker_id":  "C580",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  320
+                    },
+                    {
+                        "recording_id_sha256":  "82aca5b288f0467be8a426105c28a2f40f5d087a67fb75d759d54e0e51025a92",
+                        "speaker_id":  "C580",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  240
+                    },
+                    {
+                        "recording_id_sha256":  "abf3e91f2419c28fba9bf6fa2d0d61e1fde047b4fe1dbea172f65de30faa9f14",
+                        "speaker_id":  "C580",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  -240
+                    },
+                    {
+                        "recording_id_sha256":  "275681cd52b3aea34a39d4beb8ce556ff89b5632853bfccce05e14a64bc580d6",
+                        "speaker_id":  "C580",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               176,
+                                               192
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  440
+                    },
+                    {
+                        "recording_id_sha256":  "b73d23b5e9a2d9db2baac003689a067a97f70da934b59dbaad8b98a31d646540",
+                        "speaker_id":  "C580",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  -560
+                    },
+                    {
+                        "recording_id_sha256":  "4038d25cc5ac28b67cd9893392bba96d8803b989c7070b8bb337549867e015b0",
+                        "speaker_id":  "C613",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  80
+                    },
+                    {
+                        "recording_id_sha256":  "9b9faa285fb4da32d1dbc35e66c35aad0617b933504752240b9749d351dd14ea",
+                        "speaker_id":  "C613",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  360
+                    },
+                    {
+                        "recording_id_sha256":  "32736dfa78d6a232bdca9b446fdadc1f51b278fec21f3c62d62177a0332a0d5d",
+                        "speaker_id":  "C613",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  360
+                    },
+                    {
+                        "recording_id_sha256":  "aa61511acd41bfe3893eacbc99f70ccd03413baa8fd7061373fad2facae53f23",
+                        "speaker_id":  "C613",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  -280
+                    },
+                    {
+                        "recording_id_sha256":  "fa0d2d60cdf2f7234ac43dcf81def6ab060815ef6de5642ac93659abefdd44e8",
+                        "speaker_id":  "C613",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  360
+                    },
+                    {
+                        "recording_id_sha256":  "9a404cd40675038f1da6bdf4cefc8764fd3b75244b16d3220db88a2264ac0dfc",
+                        "speaker_id":  "C613",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               176,
+                                               192
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  280
+                    },
+                    {
+                        "recording_id_sha256":  "2f7516fcdb73182bee6229d5defab3f159bc32f0c0cd74cb7e27a780df788218",
+                        "speaker_id":  "C613",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48,
+                                               64,
+                                               80
+                                           ],
+                        "b_frame_starts":  [
+                                               144,
+                                               160,
+                                               176,
+                                               192
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  -40
+                    },
+                    {
+                        "recording_id_sha256":  "0992a28a57df54133918e3bb6d81e33e9da51e520293f21d3ef9bfd0fba49f7b",
+                        "speaker_id":  "C613",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  480
+                    },
+                    {
+                        "recording_id_sha256":  "6c496edc45524067c11bf6441f25796b7895984fb3760f1af24e30087b958974",
+                        "speaker_id":  "C613",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  -520
+                    },
+                    {
+                        "recording_id_sha256":  "4299c95a07111181f1bb9df7e25c1d65e85ac7617d5aad5892acf61490bbee47",
+                        "speaker_id":  "C613",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  0
+                    },
+                    {
+                        "recording_id_sha256":  "6dfc4f52af39a34e581c10d658e0a61eb3fc2b6abb313219e5dffb3e06413ffc",
+                        "speaker_id":  "C613",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  440
+                    },
+                    {
+                        "recording_id_sha256":  "ebf0fdcd0c2e1ea3de5388facc7092e46404520ca47fe7214254333f4bcce14e",
+                        "speaker_id":  "C613",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  240
+                    },
+                    {
+                        "recording_id_sha256":  "055d2d5f515bb431b3636e67ea9e61ebaa7f48646751d3168861bae4dc594c05",
+                        "speaker_id":  "C282",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  320
+                    },
+                    {
+                        "recording_id_sha256":  "0b52f79a3bc29aae7625f4e07cde7349ecc91ad3128e15494248c75ee9b25fef",
+                        "speaker_id":  "C282",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  200
+                    },
+                    {
+                        "recording_id_sha256":  "0506b34694a1d68b2a3a7ddf74a65a84172a9e6f317bfe79625cffbba93085b7",
+                        "speaker_id":  "C282",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "boundary",
+                        "selected_offset_ms":  null
+                    },
+                    {
+                        "recording_id_sha256":  "b1ef999d802d844cc88cc7159eb412fbd08b63e0af6b48aa936a059f9d74692a",
+                        "speaker_id":  "C282",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  480
+                    },
+                    {
+                        "recording_id_sha256":  "396c816c8fd61bb35bd758daa58e4c5331e008b7c1a6fd2c70fca06cc851b8ee",
+                        "speaker_id":  "C282",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  440
+                    },
+                    {
+                        "recording_id_sha256":  "1fe9b0b601684a26a1a00f74a01aeaf6e4874535729e93e1ef300d3542d574ac",
+                        "speaker_id":  "C282",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               176,
+                                               192
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  -40
+                    },
+                    {
+                        "recording_id_sha256":  "05d0b5898212b55e62f2da1edf28d51f4a0904acb53cab0a40478b3c753b90c9",
+                        "speaker_id":  "C282",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  -600
+                    },
+                    {
+                        "recording_id_sha256":  "2def13993c1046c3ee1851d27d62377667ac21f0e616a7b4024336176631042b",
+                        "speaker_id":  "C282",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48,
+                                               64,
+                                               80
+                                           ],
+                        "b_frame_starts":  [
+                                               144,
+                                               160,
+                                               176,
+                                               192
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  -320
+                    },
+                    {
+                        "recording_id_sha256":  "2ac3270ceafa67fecdf4c863d6413d132e1cb0f6dfe73772162403bbde5e6e15",
+                        "speaker_id":  "C282",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "boundary",
+                        "selected_offset_ms":  null
+                    },
+                    {
+                        "recording_id_sha256":  "5fb694e9a1bd00ba9e51ab1021dc970dd0e4748a31eeaa959183e0d635d9b378",
+                        "speaker_id":  "C282",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               176,
+                                               192
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  0
+                    },
+                    {
+                        "recording_id_sha256":  "8dbf1e1836576ded5c3e56dc1d810c8a4d10c7ffd466b46481ff704695c8bba9",
+                        "speaker_id":  "C282",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  480
+                    },
+                    {
+                        "recording_id_sha256":  "6d257bcae7bb9a5b4fbb4a293bb92b91e9a050ca21a94916a2ce8189725c141b",
+                        "speaker_id":  "C282",
+                        "decision_status":  "included",
+                        "a_frame_starts":  [
+                                               32,
+                                               48
+                                           ],
+                        "b_frame_starts":  [
+                                               112,
+                                               128
+                                           ],
+                        "calibration_status":  "valid",
+                        "selected_offset_ms":  240
+                    }
+                ]
+}

@@ -1,0 +1,605 @@
+{
+  "models": {
+    "original": {
+      "model_id": "original",
+      "per_distance": {
+        "40": {
+          "conditional_success": {
+            "estimate": 1.0,
+            "ci_low": 1.0,
+            "ci_high": 1.0,
+            "speakers": 1
+          },
+          "end_to_end_success": {
+            "estimate": 1.0,
+            "ci_low": 1.0,
+            "ci_high": 1.0,
+            "speakers": 1
+          },
+          "margin": {
+            "estimate": 0.7,
+            "ci_low": 0.7,
+            "ci_high": 0.7,
+            "speakers": 1
+          },
+          "negative_failure_rate": {
+            "estimate": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "speakers": 1
+          },
+          "positive_failure_rate": {
+            "estimate": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "speakers": 1
+          },
+          "support": {
+            "all_recordings": 1,
+            "available_records": 1,
+            "available_windows": 1
+          },
+          "outcomes": {
+            "neither_failure": 1,
+            "negative_only_failure": 0,
+            "positive_only_failure": 0,
+            "both_failures": 0
+          },
+          "tie_comparisons": 0,
+          "comparison_count": 2,
+          "tie_rate": 0.0,
+          "any_tie_windows": 0,
+          "any_tie_window_rate": 0.0
+        },
+        "80": {
+          "conditional_success": {
+            "estimate": 1.0,
+            "ci_low": 1.0,
+            "ci_high": 1.0,
+            "speakers": 1
+          },
+          "end_to_end_success": {
+            "estimate": 1.0,
+            "ci_low": 1.0,
+            "ci_high": 1.0,
+            "speakers": 1
+          },
+          "margin": {
+            "estimate": 0.7,
+            "ci_low": 0.7,
+            "ci_high": 0.7,
+            "speakers": 1
+          },
+          "negative_failure_rate": {
+            "estimate": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "speakers": 1
+          },
+          "positive_failure_rate": {
+            "estimate": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "speakers": 1
+          },
+          "support": {
+            "all_recordings": 1,
+            "available_records": 1,
+            "available_windows": 1
+          },
+          "outcomes": {
+            "neither_failure": 1,
+            "negative_only_failure": 0,
+            "positive_only_failure": 0,
+            "both_failures": 0
+          },
+          "tie_comparisons": 0,
+          "comparison_count": 2,
+          "tie_rate": 0.0,
+          "any_tie_windows": 0,
+          "any_tie_window_rate": 0.0
+        },
+        "120": {
+          "conditional_success": {
+            "estimate": 1.0,
+            "ci_low": 1.0,
+            "ci_high": 1.0,
+            "speakers": 1
+          },
+          "end_to_end_success": {
+            "estimate": 1.0,
+            "ci_low": 1.0,
+            "ci_high": 1.0,
+            "speakers": 1
+          },
+          "margin": {
+            "estimate": 0.7,
+            "ci_low": 0.7,
+            "ci_high": 0.7,
+            "speakers": 1
+          },
+          "negative_failure_rate": {
+            "estimate": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "speakers": 1
+          },
+          "positive_failure_rate": {
+            "estimate": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "speakers": 1
+          },
+          "support": {
+            "all_recordings": 1,
+            "available_records": 1,
+            "available_windows": 1
+          },
+          "outcomes": {
+            "neither_failure": 1,
+            "negative_only_failure": 0,
+            "positive_only_failure": 0,
+            "both_failures": 0
+          },
+          "tie_comparisons": 0,
+          "comparison_count": 2,
+          "tie_rate": 0.0,
+          "any_tie_windows": 0,
+          "any_tie_window_rate": 0.0
+        },
+        "160": {
+          "conditional_success": {
+            "estimate": 1.0,
+            "ci_low": 1.0,
+            "ci_high": 1.0,
+            "speakers": 1
+          },
+          "end_to_end_success": {
+            "estimate": 1.0,
+            "ci_low": 1.0,
+            "ci_high": 1.0,
+            "speakers": 1
+          },
+          "margin": {
+            "estimate": 0.7,
+            "ci_low": 0.7,
+            "ci_high": 0.7,
+            "speakers": 1
+          },
+          "negative_failure_rate": {
+            "estimate": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "speakers": 1
+          },
+          "positive_failure_rate": {
+            "estimate": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "speakers": 1
+          },
+          "support": {
+            "all_recordings": 1,
+            "available_records": 1,
+            "available_windows": 1
+          },
+          "outcomes": {
+            "neither_failure": 1,
+            "negative_only_failure": 0,
+            "positive_only_failure": 0,
+            "both_failures": 0
+          },
+          "tie_comparisons": 0,
+          "comparison_count": 2,
+          "tie_rate": 0.0,
+          "any_tie_windows": 0,
+          "any_tie_window_rate": 0.0
+        },
+        "240": {
+          "conditional_success": {
+            "estimate": 1.0,
+            "ci_low": 1.0,
+            "ci_high": 1.0,
+            "speakers": 1
+          },
+          "end_to_end_success": {
+            "estimate": 1.0,
+            "ci_low": 1.0,
+            "ci_high": 1.0,
+            "speakers": 1
+          },
+          "margin": {
+            "estimate": 0.7,
+            "ci_low": 0.7,
+            "ci_high": 0.7,
+            "speakers": 1
+          },
+          "negative_failure_rate": {
+            "estimate": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "speakers": 1
+          },
+          "positive_failure_rate": {
+            "estimate": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "speakers": 1
+          },
+          "support": {
+            "all_recordings": 1,
+            "available_records": 1,
+            "available_windows": 1
+          },
+          "outcomes": {
+            "neither_failure": 1,
+            "negative_only_failure": 0,
+            "positive_only_failure": 0,
+            "both_failures": 0
+          },
+          "tie_comparisons": 0,
+          "comparison_count": 2,
+          "tie_rate": 0.0,
+          "any_tie_windows": 0,
+          "any_tie_window_rate": 0.0
+        },
+        "320": {
+          "conditional_success": {
+            "estimate": 1.0,
+            "ci_low": 1.0,
+            "ci_high": 1.0,
+            "speakers": 1
+          },
+          "end_to_end_success": {
+            "estimate": 1.0,
+            "ci_low": 1.0,
+            "ci_high": 1.0,
+            "speakers": 1
+          },
+          "margin": {
+            "estimate": 0.7,
+            "ci_low": 0.7,
+            "ci_high": 0.7,
+            "speakers": 1
+          },
+          "negative_failure_rate": {
+            "estimate": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "speakers": 1
+          },
+          "positive_failure_rate": {
+            "estimate": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "speakers": 1
+          },
+          "support": {
+            "all_recordings": 1,
+            "available_records": 1,
+            "available_windows": 1
+          },
+          "outcomes": {
+            "neither_failure": 1,
+            "negative_only_failure": 0,
+            "positive_only_failure": 0,
+            "both_failures": 0
+          },
+          "tie_comparisons": 0,
+          "comparison_count": 2,
+          "tie_rate": 0.0,
+          "any_tie_windows": 0,
+          "any_tie_window_rate": 0.0
+        }
+      },
+      "common_support_records": 1,
+      "common_support_per_distance": {
+        "40": {
+          "conditional_success": {
+            "estimate": 1.0,
+            "ci_low": 1.0,
+            "ci_high": 1.0,
+            "speakers": 1
+          },
+          "end_to_end_success": {
+            "estimate": 1.0,
+            "ci_low": 1.0,
+            "ci_high": 1.0,
+            "speakers": 1
+          },
+          "margin": {
+            "estimate": 0.7,
+            "ci_low": 0.7,
+            "ci_high": 0.7,
+            "speakers": 1
+          },
+          "negative_failure_rate": {
+            "estimate": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "speakers": 1
+          },
+          "positive_failure_rate": {
+            "estimate": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "speakers": 1
+          },
+          "support": {
+            "all_recordings": 1,
+            "available_records": 1,
+            "available_windows": 1
+          },
+          "outcomes": {
+            "neither_failure": 1,
+            "negative_only_failure": 0,
+            "positive_only_failure": 0,
+            "both_failures": 0
+          },
+          "tie_comparisons": 0,
+          "comparison_count": 2,
+          "tie_rate": 0.0,
+          "any_tie_windows": 0,
+          "any_tie_window_rate": 0.0
+        },
+        "80": {
+          "conditional_success": {
+            "estimate": 1.0,
+            "ci_low": 1.0,
+            "ci_high": 1.0,
+            "speakers": 1
+          },
+          "end_to_end_success": {
+            "estimate": 1.0,
+            "ci_low": 1.0,
+            "ci_high": 1.0,
+            "speakers": 1
+          },
+          "margin": {
+            "estimate": 0.7,
+            "ci_low": 0.7,
+            "ci_high": 0.7,
+            "speakers": 1
+          },
+          "negative_failure_rate": {
+            "estimate": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "speakers": 1
+          },
+          "positive_failure_rate": {
+            "estimate": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "speakers": 1
+          },
+          "support": {
+            "all_recordings": 1,
+            "available_records": 1,
+            "available_windows": 1
+          },
+          "outcomes": {
+            "neither_failure": 1,
+            "negative_only_failure": 0,
+            "positive_only_failure": 0,
+            "both_failures": 0
+          },
+          "tie_comparisons": 0,
+          "comparison_count": 2,
+          "tie_rate": 0.0,
+          "any_tie_windows": 0,
+          "any_tie_window_rate": 0.0
+        },
+        "120": {
+          "conditional_success": {
+            "estimate": 1.0,
+            "ci_low": 1.0,
+            "ci_high": 1.0,
+            "speakers": 1
+          },
+          "end_to_end_success": {
+            "estimate": 1.0,
+            "ci_low": 1.0,
+            "ci_high": 1.0,
+            "speakers": 1
+          },
+          "margin": {
+            "estimate": 0.7,
+            "ci_low": 0.7,
+            "ci_high": 0.7,
+            "speakers": 1
+          },
+          "negative_failure_rate": {
+            "estimate": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "speakers": 1
+          },
+          "positive_failure_rate": {
+            "estimate": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "speakers": 1
+          },
+          "support": {
+            "all_recordings": 1,
+            "available_records": 1,
+            "available_windows": 1
+          },
+          "outcomes": {
+            "neither_failure": 1,
+            "negative_only_failure": 0,
+            "positive_only_failure": 0,
+            "both_failures": 0
+          },
+          "tie_comparisons": 0,
+          "comparison_count": 2,
+          "tie_rate": 0.0,
+          "any_tie_windows": 0,
+          "any_tie_window_rate": 0.0
+        },
+        "160": {
+          "conditional_success": {
+            "estimate": 1.0,
+            "ci_low": 1.0,
+            "ci_high": 1.0,
+            "speakers": 1
+          },
+          "end_to_end_success": {
+            "estimate": 1.0,
+            "ci_low": 1.0,
+            "ci_high": 1.0,
+            "speakers": 1
+          },
+          "margin": {
+            "estimate": 0.7,
+            "ci_low": 0.7,
+            "ci_high": 0.7,
+            "speakers": 1
+          },
+          "negative_failure_rate": {
+            "estimate": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "speakers": 1
+          },
+          "positive_failure_rate": {
+            "estimate": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "speakers": 1
+          },
+          "support": {
+            "all_recordings": 1,
+            "available_records": 1,
+            "available_windows": 1
+          },
+          "outcomes": {
+            "neither_failure": 1,
+            "negative_only_failure": 0,
+            "positive_only_failure": 0,
+            "both_failures": 0
+          },
+          "tie_comparisons": 0,
+          "comparison_count": 2,
+          "tie_rate": 0.0,
+          "any_tie_windows": 0,
+          "any_tie_window_rate": 0.0
+        },
+        "240": {
+          "conditional_success": {
+            "estimate": 1.0,
+            "ci_low": 1.0,
+            "ci_high": 1.0,
+            "speakers": 1
+          },
+          "end_to_end_success": {
+            "estimate": 1.0,
+            "ci_low": 1.0,
+            "ci_high": 1.0,
+            "speakers": 1
+          },
+          "margin": {
+            "estimate": 0.7,
+            "ci_low": 0.7,
+            "ci_high": 0.7,
+            "speakers": 1
+          },
+          "negative_failure_rate": {
+            "estimate": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "speakers": 1
+          },
+          "positive_failure_rate": {
+            "estimate": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "speakers": 1
+          },
+          "support": {
+            "all_recordings": 1,
+            "available_records": 1,
+            "available_windows": 1
+          },
+          "outcomes": {
+            "neither_failure": 1,
+            "negative_only_failure": 0,
+            "positive_only_failure": 0,
+            "both_failures": 0
+          },
+          "tie_comparisons": 0,
+          "comparison_count": 2,
+          "tie_rate": 0.0,
+          "any_tie_windows": 0,
+          "any_tie_window_rate": 0.0
+        },
+        "320": {
+          "conditional_success": {
+            "estimate": 1.0,
+            "ci_low": 1.0,
+            "ci_high": 1.0,
+            "speakers": 1
+          },
+          "end_to_end_success": {
+            "estimate": 1.0,
+            "ci_low": 1.0,
+            "ci_high": 1.0,
+            "speakers": 1
+          },
+          "margin": {
+            "estimate": 0.7,
+            "ci_low": 0.7,
+            "ci_high": 0.7,
+            "speakers": 1
+          },
+          "negative_failure_rate": {
+            "estimate": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "speakers": 1
+          },
+          "positive_failure_rate": {
+            "estimate": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "speakers": 1
+          },
+          "support": {
+            "all_recordings": 1,
+            "available_records": 1,
+            "available_windows": 1
+          },
+          "outcomes": {
+            "neither_failure": 1,
+            "negative_only_failure": 0,
+            "positive_only_failure": 0,
+            "both_failures": 0
+          },
+          "tie_comparisons": 0,
+          "comparison_count": 2,
+          "tie_rate": 0.0,
+          "any_tie_windows": 0,
+          "any_tie_window_rate": 0.0
+        }
+      }
+    }
+  },
+  "paired_comparisons": {},
+  "calibration_status_counts": {
+    "valid": 1
+  },
+  "failure_examples_80ms": [
+    {
+      "recording_id": "synthetic-r1",
+      "window_id": "synthetic-w1",
+      "selected_offset_ms": 0,
+      "center_score": 0.9,
+      "negative_80_score": 0.2,
+      "positive_80_score": 0.2,
+      "minimum_margin": 0.7
+    }
+  ],
+  "bootstrap_samples": 40,
+  "seed": 2701
+}

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "snapshotDateKst": "2026-10-19",
+  "phase": "development_validation",
+  "completedEpochCutoff": 47,
+  "cohort": {"speakers":4,"recordings":48,"windows":192,"pairs":2112,"positivePairs":192,"negativePairs":1920},
+  "rows": [
+    {"model":"Original StableSyncNet","epoch":null,"signed80":0.546875,"balancedAccuracy":0.6096354166666667,"balancedBce":0.7152199462127499,"auroc":0.6532552083333334,"eer":0.41770833333333335},
+    {"model":"KoNet LoRA best","epoch":5,"signed80":0.6536458333333333,"balancedAccuracy":0.6471354166666666,"balancedBce":0.6473637904441325,"auroc":0.6881510416666665,"eer":0.4005208333333333},
+    {"model":"KoNet LoRA epoch47","epoch":47,"signed80":0.6302083333333333,"balancedAccuracy":0.63984375,"balancedBce":0.6695401915887385,"auroc":0.6858072916666667,"eer":0.3953125}
+  ],
+  "scoreSource":"Fixed Korean development validation; original/best5 raw-score reaggregation and saved epoch47 validation aggregate.",
+  "limitations":["Small four-speaker evaluation cohort","Not a new independent final test","Not a comparison with published HDTF accuracy or a demonstrated Korean SOTA result","Demo outputs use the existing original LatentSync generator, not a KoNet-integrated generator"]
+}

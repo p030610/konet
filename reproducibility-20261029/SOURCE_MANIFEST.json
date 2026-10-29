@@ -1,0 +1,647 @@
+﻿{
+    "created":  "2026-10-29",
+    "source_workspace":  "lower-face-task7-20260825/0325 (local source snapshot; per-file hashes below)",
+    "source_files":  [
+                         {
+                             "path":  "src/frozen_korean_syncnet/media.py",
+                             "sha256":  "c12d82084e62faa94dd77745c8579103b448ab22b500f28ad4963a0e8ca9ad41",
+                             "source_relative_path":  "src/frozen_korean_syncnet/media.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/frozen_korean_syncnet/models.py",
+                             "sha256":  "3c98dcb63f0544e63c221cee616a685e65a0bbd9e4a1c0eeab8f1ad3f4d00121",
+                             "source_relative_path":  "src/frozen_korean_syncnet/models.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/frozen_korean_syncnet/windows.py",
+                             "sha256":  "0d2dd7babefc4441d819892b8d197fe7722ca74f730f4de95ffaa121894fd848",
+                             "source_relative_path":  "src/frozen_korean_syncnet/windows.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/frozen_korean_syncnet/__init__.py",
+                             "sha256":  "4c07e0e4db4ace4c8ea75a4ff9a86b3c85daa747ae21845a38cbc14ba7cabc47",
+                             "source_relative_path":  "src/frozen_korean_syncnet/__init__.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/koen_syncnet_eval/contracts.py",
+                             "sha256":  "122fe27a399e348eebaad3d6ac5a716d51ac58a5c6a931f26d8d2677365d38d8",
+                             "source_relative_path":  "src/koen_syncnet_eval/contracts.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/koen_syncnet_eval/gpu.py",
+                             "sha256":  "8a4bb8589128e02e5ddb6ad12886300f8accd27bb8d44d519325d6b8368a5dd7",
+                             "source_relative_path":  "src/koen_syncnet_eval/gpu.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/koen_syncnet_eval/ledger.py",
+                             "sha256":  "deff65e3b448584252085283b87126a0d0319e883a01fc00100ff8f2a9f3c880",
+                             "source_relative_path":  "src/koen_syncnet_eval/ledger.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/koen_syncnet_eval/policy.py",
+                             "sha256":  "f400976f6ed8989918dc6a7b140b724aab492136971e6832bfb4a6edd2b6ba32",
+                             "source_relative_path":  "src/koen_syncnet_eval/policy.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/koen_syncnet_eval/resources.py",
+                             "sha256":  "e2e887bcbf9ad4347e98ed2c0ae46513aebc1da80e98ee351e2b8426d6fe0e34",
+                             "source_relative_path":  "src/koen_syncnet_eval/resources.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/koen_syncnet_eval/scoring.py",
+                             "sha256":  "3c906d00c881280490d8010f6e397a52711b3c3528a5211b2e271adb3a591ec4",
+                             "source_relative_path":  "src/koen_syncnet_eval/scoring.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/koen_syncnet_eval/timing.py",
+                             "sha256":  "8be708f3a9238bcb25db97421db6391a8fc1d32b05c7d4c6031d107307acfc2b",
+                             "source_relative_path":  "src/koen_syncnet_eval/timing.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/koen_syncnet_eval/visual.py",
+                             "sha256":  "5f634c9b80c73ae95bd5469493ea55fa03ee6085cb78e3a0c547a4ed89695972",
+                             "source_relative_path":  "src/koen_syncnet_eval/visual.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/koen_syncnet_eval/__init__.py",
+                             "sha256":  "b8d33c4c86830f098fc29d3186dfa4674c193e995e815d6397a2984bc2c7af79",
+                             "source_relative_path":  "src/koen_syncnet_eval/__init__.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/konet_training/adapter_config.py",
+                             "sha256":  "3daaf175dfb8b67bcc61b13ad4c2c28fff441f53636d082d00ca124604e18581",
+                             "source_relative_path":  "src/konet_training/adapter_config.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/konet_training/configuration.py",
+                             "sha256":  "c7a6e6c0fef3677ea20cd40cfd793d5c7c7d23be5917aff4864b706710972b56",
+                             "source_relative_path":  "src/konet_training/configuration.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/konet_training/core.py",
+                             "sha256":  "ef7b25d7998e3915e4220faa75626110693fa1e8e0acb934245f1a9aca84b5c3",
+                             "source_relative_path":  "src/konet_training/core.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/konet_training/errors.py",
+                             "sha256":  "d86090cc0b85996382f0300b550f6cf8f14f2ed4a8608c7377bb89eb20089396",
+                             "source_relative_path":  "src/konet_training/errors.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/konet_training/lora.py",
+                             "sha256":  "31094714e7cfd2090110670ea7eb4f1a64481074f32578ea23aac5999c595c47",
+                             "source_relative_path":  "src/konet_training/lora.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/konet_training/timing.py",
+                             "sha256":  "a126c585106995d95206982fafb5a6785c10a7c0fa7ae54f6c2c0ef459de3821",
+                             "source_relative_path":  "src/konet_training/timing.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/konet_training/__init__.py",
+                             "sha256":  "0773dce826e82ca48885de99608b5042d2ec836f18c7033774685f3ae5895b16",
+                             "source_relative_path":  "src/konet_training/__init__.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/ko_offset_eval/adapters.py",
+                             "sha256":  "480850064eeb464c1e4387f1eb2728966d986598286e39e21641a721529cf4a0",
+                             "source_relative_path":  "src/ko_offset_eval/adapters.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/ko_offset_eval/adapter_scoring.py",
+                             "sha256":  "65b06f24b6427acb65ea19cd8eadfc41c01b6ba936358c15b2f4b60a0ad0872b",
+                             "source_relative_path":  "src/ko_offset_eval/adapter_scoring.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/ko_offset_eval/arms.py",
+                             "sha256":  "b8fdeabd8e30ebc12d7028b45ed3b934d8ffc5536f263bf346db60857a4739ab",
+                             "source_relative_path":  "src/ko_offset_eval/arms.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/ko_offset_eval/cohort.py",
+                             "sha256":  "3a288ade2ee5d7335037a4c9fc6cf541add9afca53125fafb4b37eead56e3060",
+                             "source_relative_path":  "src/ko_offset_eval/cohort.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/ko_offset_eval/contracts.py",
+                             "sha256":  "9b547e8d2b18508d3a8bdd0371c2500b5124bcbf19596fd8fee63f6fab999feb",
+                             "source_relative_path":  "src/ko_offset_eval/contracts.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/ko_offset_eval/metrics.py",
+                             "sha256":  "3d900af20c0607e3cf07a5ff088db64ae86f296db05ccca2cab4b4f5fa6f6f9d",
+                             "source_relative_path":  "src/ko_offset_eval/metrics.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/ko_offset_eval/models.py",
+                             "sha256":  "f4f21755646ae784ce6fa9d320b9e41842f60a1b7724dd61ddd08c8e23ed09b2",
+                             "source_relative_path":  "src/ko_offset_eval/models.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/ko_offset_eval/parity.py",
+                             "sha256":  "0d6b8235b2930130672f88f59e3f04eaeb70c876b4f5ba93a57a0a9cb3f6ddb7",
+                             "source_relative_path":  "src/ko_offset_eval/parity.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/ko_offset_eval/planning.py",
+                             "sha256":  "91f16c26f69e13b973ce38b06565fb6d8088d9248c239318041b5def90f06b7d",
+                             "source_relative_path":  "src/ko_offset_eval/planning.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/ko_offset_eval/preparation.py",
+                             "sha256":  "e6541d64bd76a2f35be748c2e079c857e1d07104c70970b02555c64616469001",
+                             "source_relative_path":  "src/ko_offset_eval/preparation.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/ko_offset_eval/progress.py",
+                             "sha256":  "1bac486d708788a1ff55fdf597c892c2f241b08b591280ab8a74ad5578cc3cb3",
+                             "source_relative_path":  "src/ko_offset_eval/progress.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/ko_offset_eval/reporting.py",
+                             "sha256":  "9c1ce5cedf842dcb31a29505b8772725fc1678de5091f3684b84904cfcd21c2a",
+                             "source_relative_path":  "src/ko_offset_eval/reporting.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/ko_offset_eval/reuse.py",
+                             "sha256":  "9c2f2af1c5dd5fe5f17d7cae50c3e04ddb1a9dd7c5f3516308b0d4ef104f4420",
+                             "source_relative_path":  "src/ko_offset_eval/reuse.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/ko_offset_eval/runner.py",
+                             "sha256":  "891748f96266f23b0143b05082ad50c90bd6bda2dec4e1f5630c134a42213e4c",
+                             "source_relative_path":  "src/ko_offset_eval/runner.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/ko_offset_eval/runner_io.py",
+                             "sha256":  "6851ec2d458a77111abddd723d5eea023a354226bb0139b1856899c22073a8b4",
+                             "source_relative_path":  "src/ko_offset_eval/runner_io.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/ko_offset_eval/scoring.py",
+                             "sha256":  "0796af4ff98775d87bb7a38c7c7157546364e1ec2d4e4e90ce6b95667050598b",
+                             "source_relative_path":  "src/ko_offset_eval/scoring.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/ko_offset_eval/timing.py",
+                             "sha256":  "abc50bbe42818620af182812eebdd2e76f94e71e681282004450eaed236312c5",
+                             "source_relative_path":  "src/ko_offset_eval/timing.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/ko_offset_eval/window_scoring.py",
+                             "sha256":  "feafa50fb1d1ded3e4d403eb055f3cc1bc5669e833f14a297d2de186503ce02b",
+                             "source_relative_path":  "src/ko_offset_eval/window_scoring.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/ko_offset_eval/__init__.py",
+                             "sha256":  "7890de084af3d1138355b88c87f07baeeb53ba45ed35caf839cdc92c1417be1d",
+                             "source_relative_path":  "src/ko_offset_eval/__init__.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator/dataset_v2.py",
+                             "sha256":  "5f73c5b7e681886e1e2b5f97c69192e142fa6f630da9af2a6894290419a92275",
+                             "source_relative_path":  "src/lower_face_generator/dataset_v2.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator/geometry.py",
+                             "sha256":  "ed8eb4a5e39f4ca6d3ed026a891fb32855cbb08ad7fc7a1b3a43637ac1564631",
+                             "source_relative_path":  "src/lower_face_generator/geometry.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator/model.py",
+                             "sha256":  "d6d19941743c157721308c179d27bbc4fc4dc28782fc6f63773be78358c7b1c2",
+                             "source_relative_path":  "src/lower_face_generator/model.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator/preprocess.py",
+                             "sha256":  "ef4a2b8d963beb36b08a48aa97571ff7b293f51d0975754d832523e695fb728d",
+                             "source_relative_path":  "src/lower_face_generator/preprocess.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator/__init__.py",
+                             "sha256":  "2643652880c717a3de626c746c348c817ba9ab515cf02fca6401d226208580b1",
+                             "source_relative_path":  "src/lower_face_generator/__init__.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/adversarial_v4g.py",
+                             "sha256":  "1149c8a688e84ccb9790a309a3974be7ea4b186f0cf83664f04da55aa1421ec4",
+                             "source_relative_path":  "src/lower_face_generator_v2/adversarial_v4g.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/audio_authority_v4i.py",
+                             "sha256":  "e351b686be19fa04eff917e3810b00f6d2b93cb845a06d2b73878ea4593e23d8",
+                             "source_relative_path":  "src/lower_face_generator_v2/audio_authority_v4i.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/audio_dataset_v4i.py",
+                             "sha256":  "1435864d0e5e235848582f07b8391e0253dc7b6656f6ddbb8d0e55d20ede22bf",
+                             "source_relative_path":  "src/lower_face_generator_v2/audio_dataset_v4i.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/authority.py",
+                             "sha256":  "d12d053b487becdd2d6aea1c7db691ea8305466856f699716cfdc1a80051354a",
+                             "source_relative_path":  "src/lower_face_generator_v2/authority.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/authority_v4h.py",
+                             "sha256":  "7e2d459c393217ef763f0faafae77430cea6dec42b89a577ccffef71d453a1b0",
+                             "source_relative_path":  "src/lower_face_generator_v2/authority_v4h.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/compositor_v4.py",
+                             "sha256":  "a62b48ee12410adddb2368a77265342242b7643f7357e65c8a2260d0d549aef4",
+                             "source_relative_path":  "src/lower_face_generator_v2/compositor_v4.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/compositor_v4d.py",
+                             "sha256":  "fb3c5a4e0ab8f408bd1fc60f3deab50b516eba7e7e5c7cad1d298695b7ccecfd",
+                             "source_relative_path":  "src/lower_face_generator_v2/compositor_v4d.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/coordinate_contract.py",
+                             "sha256":  "1e75c49ac3c0718cc4bce9a6e9fe1640fe522ab0e635c7376dbc70eec52f96f1",
+                             "source_relative_path":  "src/lower_face_generator_v2/coordinate_contract.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/dataset.py",
+                             "sha256":  "d00903f4a361a907fd24ea102dfe898ca7c208b57b0a947d128b781e5693aedf",
+                             "source_relative_path":  "src/lower_face_generator_v2/dataset.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/dataset_v5.py",
+                             "sha256":  "81d0844e9cdb20f157795c3784cb24a8186756c3a28d12159f19f77c7b012f4c",
+                             "source_relative_path":  "src/lower_face_generator_v2/dataset_v5.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/geometry_probe.py",
+                             "sha256":  "0e5270c48087498d10552bfc7ea58883f3f0c21785952ff4534e890f2d88a5ba",
+                             "source_relative_path":  "src/lower_face_generator_v2/geometry_probe.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/indexing.py",
+                             "sha256":  "a363a8d80a61abf998706458adeef0ee55b5018ccea382a5d3d4710bc8ba0a1d",
+                             "source_relative_path":  "src/lower_face_generator_v2/indexing.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/losses.py",
+                             "sha256":  "91c9f70ed67a735bd860c0b199f8abc4e220b186f79406814e493e7814780d24",
+                             "source_relative_path":  "src/lower_face_generator_v2/losses.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/losses_v5.py",
+                             "sha256":  "e89ba6c8d543c4f17cbec242f0f4a15f9877bc4526f7f20e305ec6f998972c80",
+                             "source_relative_path":  "src/lower_face_generator_v2/losses_v5.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/mask_cache_v5.py",
+                             "sha256":  "3627bb1e629d9a54090ba1ed881c11cb2455e067ce9d764e1aef1de12057bac7",
+                             "source_relative_path":  "src/lower_face_generator_v2/mask_cache_v5.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/mask_contract_v5.py",
+                             "sha256":  "55440e202369276dbf23ecbc779672b67df7ff72e5bbde84a1a2543bffced3b8",
+                             "source_relative_path":  "src/lower_face_generator_v2/mask_contract_v5.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/model.py",
+                             "sha256":  "201586ca5c91ae7efdd615ee2ba01f5c7b423a253ce42509d94b83f7611d7010",
+                             "source_relative_path":  "src/lower_face_generator_v2/model.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/model_v3.py",
+                             "sha256":  "994ecf45586acc9b5c393dc2000e244ceacfc8e7ad4c2475613c4905a8b55a2a",
+                             "source_relative_path":  "src/lower_face_generator_v2/model_v3.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/pilot.py",
+                             "sha256":  "8e8b34d9be6625ffb9d7391e4c31893d851316f94d3766a71281ce8c57028857",
+                             "source_relative_path":  "src/lower_face_generator_v2/pilot.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/rasterizer.py",
+                             "sha256":  "1a4562c3d32dfd9509d06d5cb3622a135637b76d49f7942809bf39208a5cc410",
+                             "source_relative_path":  "src/lower_face_generator_v2/rasterizer.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/source_space.py",
+                             "sha256":  "fb59667cbc3ad2a23ebcce7c43856baa7828a8a4d461fe8fc14f1ad2e2a414fd",
+                             "source_relative_path":  "src/lower_face_generator_v2/source_space.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/structure_dataset_v4.py",
+                             "sha256":  "c1b35d3658a01301298697f13c2d3893568a4044a1228eeda9dc930537816cb2",
+                             "source_relative_path":  "src/lower_face_generator_v2/structure_dataset_v4.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/structure_v4.py",
+                             "sha256":  "8b69b0c1a3ee9b21534cc1f1ac352591a58bbae8d35c5b3474983682801aaa74",
+                             "source_relative_path":  "src/lower_face_generator_v2/structure_v4.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/syncnet_landmark_alignment_v1.py",
+                             "sha256":  "91d45110afcef8a43505102709c609a0881538dabc0cc87d4b9be6fe574f1718",
+                             "source_relative_path":  "src/lower_face_generator_v2/syncnet_landmark_alignment_v1.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/syncnet_utility_assets_v1.py",
+                             "sha256":  "17128aad1f262924a069729d4daf8cbc4a61e080391b7fe5396d6fb4207ca8c8",
+                             "source_relative_path":  "src/lower_face_generator_v2/syncnet_utility_assets_v1.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/syncnet_utility_eval_types_v1.py",
+                             "sha256":  "1c33d1a813022e0b314eeae6519ca65a3ea9ceccc00c6ad0ec15e2c227f62a50",
+                             "source_relative_path":  "src/lower_face_generator_v2/syncnet_utility_eval_types_v1.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/syncnet_utility_models_v1.py",
+                             "sha256":  "4170d24f1e1b17c021cf4f6af77095f0e0814b6b4095d2e1ab783cc4d88cb3f2",
+                             "source_relative_path":  "src/lower_face_generator_v2/syncnet_utility_models_v1.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/syncnet_utility_runtime_v1.py",
+                             "sha256":  "eca68bcec32aecdb450bf6a28dc4e0da8f9d060269826f5aeca869c761655740",
+                             "source_relative_path":  "src/lower_face_generator_v2/syncnet_utility_runtime_v1.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/sync_dataset_v4j.py",
+                             "sha256":  "66468f5b682b2078bee3b986260cb3e4286240e40985623b549888da062f49a4",
+                             "source_relative_path":  "src/lower_face_generator_v2/sync_dataset_v4j.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/temporal.py",
+                             "sha256":  "6bcf3c071e5ac935c9802bf712e03ea5376f2418e07f34aa458e987aa873ecdc",
+                             "source_relative_path":  "src/lower_face_generator_v2/temporal.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/temporal_authority_v4k.py",
+                             "sha256":  "7167b5e946666623c912b57ef6d0812d47037a3ab4115e788cfcc1deb35626a7",
+                             "source_relative_path":  "src/lower_face_generator_v2/temporal_authority_v4k.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/temporal_losses.py",
+                             "sha256":  "640c612b8b95ed2ace10340e8fd95d7daf96bdd72fc59677562103e1735368e2",
+                             "source_relative_path":  "src/lower_face_generator_v2/temporal_losses.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/texture_v4.py",
+                             "sha256":  "54c9da5413d54263eaacfc94166a4e0a617dddf4df22f6d06b22f3f2d6ef077d",
+                             "source_relative_path":  "src/lower_face_generator_v2/texture_v4.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/texture_v4e.py",
+                             "sha256":  "353f2f7c3e31bef33ab1dac6d1d51514892d427727e1b4b7428c7cffd2484e60",
+                             "source_relative_path":  "src/lower_face_generator_v2/texture_v4e.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/texture_v4f.py",
+                             "sha256":  "1959f117cbd0ecb29ddc4df3f246a25be0598a03adecd56d3930185946a66ba1",
+                             "source_relative_path":  "src/lower_face_generator_v2/texture_v4f.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/texture_v5.py",
+                             "sha256":  "c1997e3fa5df30ffa1fed2666cd29891362e2b5777484314f8d790068b0ea1ac",
+                             "source_relative_path":  "src/lower_face_generator_v2/texture_v5.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/lower_face_generator_v2/__init__.py",
+                             "sha256":  "6705821c56dd1ce5b23980794e519f9bac953b762c21f9410dd492c0c730d7cf",
+                             "source_relative_path":  "src/lower_face_generator_v2/__init__.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/pose_aware_roi_generator/dataset.py",
+                             "sha256":  "c07b5335256eabd5e0c61a8dbbea5f25e1ad350ddd78d3a1d07606022aa7b5fe",
+                             "source_relative_path":  "src/pose_aware_roi_generator/dataset.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/pose_aware_roi_generator/geometry.py",
+                             "sha256":  "c1e9b0926dbaa6bb93eb14123978194efc90f6d919cc11e73744f1e870efb955",
+                             "source_relative_path":  "src/pose_aware_roi_generator/geometry.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/pose_aware_roi_generator/rasterizer.py",
+                             "sha256":  "5f62a9dfc6510104139edf34ef5d90c724050017d1db13d126790233c4c04d78",
+                             "source_relative_path":  "src/pose_aware_roi_generator/rasterizer.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/pose_aware_roi_generator/stable_syncnet_loss.py",
+                             "sha256":  "26694ccb2fc190913305303543c7f1ef3fcc385bcffe30121bde5f7a715e0c92",
+                             "source_relative_path":  "src/pose_aware_roi_generator/stable_syncnet_loss.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/pose_aware_roi_generator/__init__.py",
+                             "sha256":  "7de2157baa34b368b4dc8afa9ff5c534a2f320512ad4ff3af06d010913cc5eb1",
+                             "source_relative_path":  "src/pose_aware_roi_generator/__init__.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/temporal_syncnet_eval/audio.py",
+                             "sha256":  "19cf3b0f0cc645aa5abff36197d6ca0e47083ab3e391583b54fbfd639097d5d4",
+                             "source_relative_path":  "src/temporal_syncnet_eval/audio.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/temporal_syncnet_eval/budget.py",
+                             "sha256":  "d6163c18db97e0cc5a8d29076ee64944f3edb3328885a4372bf3015389313a49",
+                             "source_relative_path":  "src/temporal_syncnet_eval/budget.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/temporal_syncnet_eval/contracts.py",
+                             "sha256":  "c09e30a494993bd458f4a48c13b5840121978e0c9758c0a11405b8b5792a4c60",
+                             "source_relative_path":  "src/temporal_syncnet_eval/contracts.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/temporal_syncnet_eval/timing.py",
+                             "sha256":  "f64e71cc006b0bc1a543aebdac8dd3df3353e05747d73eec3c9ec8c2d2a732f8",
+                             "source_relative_path":  "src/temporal_syncnet_eval/timing.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/temporal_syncnet_eval/video_timing.py",
+                             "sha256":  "1cd2efced1b87260711a70d37fd7c514244d656af563a8c60c4f4be22be2860c",
+                             "source_relative_path":  "src/temporal_syncnet_eval/video_timing.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/temporal_syncnet_eval/visual.py",
+                             "sha256":  "1e823e544c01339091296ca2ca2bf5b71cc3e70c758be93e081683616c1db837",
+                             "source_relative_path":  "src/temporal_syncnet_eval/visual.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "src/temporal_syncnet_eval/__init__.py",
+                             "sha256":  "102cf6deb2a554d96c77fd1dd4dfd64537e38a224464ce5778a02e5c485bcfd2",
+                             "source_relative_path":  "src/temporal_syncnet_eval/__init__.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "scripts/eval_korean_offsets.py",
+                             "sha256":  "2c364a1db7e2bfe95d38237fb5c10a0251c112c5723f745ded24f15c753987bf",
+                             "source_relative_path":  "scripts/eval_korean_offsets.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "scripts/report_korean_offsets.py",
+                             "sha256":  "c01fa07aeb7aba54c51c1ea7592c59f209054ed12ad172fe089acb3d90389be0",
+                             "source_relative_path":  "scripts/report_korean_offsets.py",
+                             "source_hash_matches":  true
+                         },
+                         {
+                             "path":  "tests/test_ko_offset_metrics.py",
+                             "sha256":  "91afddd51c0e1902e12d865eb8d112c4e40e4040455da51f0fa6e3d63012af81",
+                             "source_relative_path":  "tests/test_ko_offset_metrics.py",
+                             "source_hash_matches":  true
+                         }
+                     ],
+    "result_source":  "StableSyncNet_Korean_Offsets_20261024/fresh-v1/reports/combined (archived completed experiment)",
+    "results":  [
+                    {
+                        "name":  "heldout_curve.svg",
+                        "sha256":  "da4bc06eadd6af59c2afd3b948a6b0caf1a3f2dd887ea936e765ed372d6cf7cc"
+                    },
+                    {
+                        "name":  "metrics.csv",
+                        "sha256":  "4fb08652817388deeb04a8953fbbb9ae5bf73c505992daa69da167140740de00"
+                    },
+                    {
+                        "name":  "metrics.json",
+                        "sha256":  "dfa2b8ca6a77b03c92739dc02e3d4cf33e5ad22ab1f9463c903536a48c7f4841"
+                    },
+                    {
+                        "name":  "paired_original_vs_konet_full_epoch9.svg",
+                        "sha256":  "f15f01545a9590420e5ec10c8a61a3d631138f17a0b90cf187bca377c73beed7"
+                    },
+                    {
+                        "name":  "paired_original_vs_konet_lora_r8a16_epoch5.svg",
+                        "sha256":  "cb182b195a841260c6191409acac7c9ae2eb926aa227df076f397a20009bf9bb"
+                    },
+                    {
+                        "name":  "report.md",
+                        "sha256":  "4491399abc61a95e81a76600b4be9c04536d9fd7e2f0de69d2017f0056d47eed"
+                    }
+                ],
+    "authored_selection_manifest_sha256":  "734448ee7a6ac25a098e7cf9b5eddfc3f5d8ea66058b5236c96718fd4c08ba39",
+    "third_party_files":  [
+                              {
+                                  "path":  "configs/syncnet_16_pixel_attn.yaml",
+                                  "upstream":  "bytedance/LatentSync",
+                                  "upstream_path":  "configs/syncnet/syncnet_16_pixel_attn.yaml",
+                                  "sha256":  "47759bf6e9968771243cf9c6bd5995ce898103a7d7ed32998b3cb4af61792279",
+                                  "modified":  false,
+                                  "license":  "Apache-2.0",
+                                  "license_path":  "licenses/LatentSync-APACHE-2.0.txt"
+                              }
+                          ],
+    "score_dataset_files":  [
+                                {
+                                    "path":  "datasets/dataset-validation.txt",
+                                    "sha256":  "5d01ee5eccd3d0ace406fe10cc7b8e7f39d7e47cfb8411fe10d811935df410a2"
+                                },
+                                {
+                                    "path":  "datasets/heldout_scores.csv",
+                                    "sha256":  "2221c5d75597d90f2d42092fc9700672911c18b366e3dd05422fe31e20994c80"
+                                },
+                                {
+                                    "path":  "datasets/heldout_scores_datacard.md",
+                                    "sha256":  "c67c1075959fa9b708bff3cb2c21290dde7c5032a619244f73301e2a928fcfff"
+                                },
+                                {
+                                    "path":  "datasets/recomputed_heldout_metrics.json",
+                                    "sha256":  "1f343546acb7d0d3ca36045a978c3d02a488c06c422a37ef519b7cd7a2cb9e28"
+                                },
+                                {
+                                    "path":  "datasets/recompute_heldout_scores.py",
+                                    "sha256":  "639cd1161597ae0eb86a5665c8a3ec8c95e4b6232e2d9b25e2c76efb9e1309dd"
+                                },
+                                {
+                                    "path":  "datasets/recompute_heldout_scores.txt",
+                                    "sha256":  "cd3133b27f3137ab224f5c5894ca6f93096196d5f526fa9eb131452bba80a12d"
+                                }
+                            ]
+}

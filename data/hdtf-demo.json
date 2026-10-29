@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "cases": [
+    {
+      "id": "hdtf-johnthune-cross-johnyarmuth-v1",
+      "model": "MuseTalk 1.5",
+      "domain": "HDTF real-person",
+      "language": "English",
+      "condition": "cross-audio redubbing",
+      "sourceKey": "hdtf:JohnThune",
+      "donorKey": "hdtf:JohnYarmuth1_0",
+      "newInference": true,
+      "appliedKoNet": false,
+      "compilation": false,
+      "durationSeconds": 30,
+      "frames": 750,
+      "width": 1280,
+      "height": 720,
+      "comparison": {
+        "width": 1440,
+        "height": 720,
+        "left": "original camera frame,identical display crop",
+        "right": "inferred",
+        "displayCrop": {
+          "x": 280,
+          "y": 0,
+          "width": 720,
+          "height": 720
+        },
+        "audio": "driving",
+        "relativeOffsetMs": 0
+      },
+      "selection": {
+        "sourceIntervalSeconds": [
+          1,
+          31
+        ],
+        "audioIntervalSeconds": [
+          0.32,
+          30.32
+        ],
+        "inputPreparation": "Whole camera frame resized1920x1080 to1280x720;25fps;native MuseTalk face detection."
+      },
+      "media": {
+        "source": "assets/demos/hdtf-johnthune-cross-johnyarmuth-v1-source.mp4",
+        "result": "assets/demos/hdtf-johnthune-cross-johnyarmuth-v1-result.mp4",
+        "audio": "assets/demos/hdtf-johnthune-cross-johnyarmuth-v1-audio.wav",
+        "comparison": "assets/demos/hdtf-johnthune-cross-johnyarmuth-v1-comparison.mp4"
+      },
+      "poster": "assets/demos/hdtf-johnthune-cross-johnyarmuth-v1-comparison.jpg",
+      "limitations": [
+        "Original mouth motion belongs to a different utterance, not target-audio ground truth",
+        "One selected qualitative cross-audio demonstration",
+        "Original MuseTalk1.5 weights;KoNet not applied"
+      ]
+    }
+  ]
+}

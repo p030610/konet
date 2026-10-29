@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "appliedKoNet": false,
+  "qualification": false,
+  "purpose": "Qualitative cross-language redubbing demonstration",
+  "sourceIntervalSeconds": [10, 34],
+  "sourceVideo": "https://www.youtube.com/watch?v=jHgZh4GV9G0",
+  "drivingAudioSource": "https://www.youtube.com/watch?v=p13JMWdrreY",
+  "commonAudio": "Demucs htdemucs estimated Korean vocals, mono 16kHz",
+  "cases": [
+    {
+      "id": "heavy-musetalk15", "model": "MuseTalk 1.5",
+      "durationSeconds": 24, "frames": 600,
+      "comparison": {"width": 1920, "height": 588, "left": "original English video", "right": "inferred Korean redubbing", "audio": "driving"},
+      "media": {"comparison": "assets/demos/heavy-musetalk15-comparison.mp4", "poster": "assets/demos/heavy-musetalk15-comparison.jpg"},
+      "inference": {"precision": "fp16", "batchSize": 8}
+    },
+    {
+      "id": "heavy-latentsync15", "model": "LatentSync 1.5",
+      "durationSeconds": 24, "frames": 600,
+      "comparison": {"width": 1920, "height": 588, "left": "original English video", "right": "inferred Korean redubbing", "audio": "driving"},
+      "media": {"comparison": "assets/demos/heavy-latentsync15-comparison.mp4", "poster": "assets/demos/heavy-latentsync15-comparison.jpg"},
+      "inference": {"precision": "fp16", "steps": 20, "guidanceScale": 1.5, "seed": 1701, "excludedNativeTailFrames": 2}
+    }
+  ],
+  "limitations": ["Original English lips are not Korean ground truth", "Separated vocals are estimates, not clean speech ground truth", "Selected scene is not population accuracy or a KoNet/SOTA result"]
+}

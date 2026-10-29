@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 2,
+  "newInference": false,
+  "appliedKoNet": false,
+  "purpose": "Qualitative generation introduction, not a comparative benchmark",
+  "cases": [
+    {
+      "id": "opening-latentsync-ko-v2",
+      "model": "LatentSync 1.5",
+      "language": "한국어",
+      "domain": "animation",
+      "condition": "cross-language redubbing",
+      "presentation": "main",
+      "compilation": false,
+      "existingSeparatedVocals": true,
+      "frames": 175,
+      "durationSeconds": 7,
+      "width": 960,
+      "height": 540,
+      "languageEvidence": "Existing Korean cinematic vocal track; original video and voice are English",
+      "segments": [
+        {
+          "id": "kiriko.front-02.korean",
+          "startSeconds": 0,
+          "durationSeconds": 7
+        }
+      ],
+      "comparison": {
+        "left": "original",
+        "right": "inferred",
+        "audio": "driving",
+        "relativeOffsetMs": 0,
+        "width": 1920,
+        "height": 540
+      },
+      "media": {
+        "source": "assets/demos/opening-latentsync-ko-v2-source.mp4",
+        "result": "assets/demos/opening-latentsync-ko-v2-result.mp4",
+        "audio": "assets/demos/opening-latentsync-ko-v2-audio.wav",
+        "comparison": "assets/demos/opening-latentsync-ko-v2-comparison.mp4"
+      }
+    },
+    {
+      "id": "opening-anime-musetalk15-v2",
+      "model": "MuseTalk 1.5",
+      "language": "English",
+      "domain": "animation",
+      "condition": "same-pair reconstruction",
+      "presentation": "extended",
+      "compilation": true,
+      "existingSeparatedVocals": false,
+      "frames": 960,
+      "durationSeconds": 38.4,
+      "width": 768,
+      "height": 768,
+      "languageEvidence": "Existing animation release language metadata; synthetic LongCat reference, not independent AV ground truth",
+      "segments": [
+        {
+          "id": "ENclip05254",
+          "startSeconds": 0,
+          "durationSeconds": 9.6
+        },
+        {
+          "id": "ENclip05418",
+          "startSeconds": 9.6,
+          "durationSeconds": 9.6
+        },
+        {
+          "id": "ENclip07292",
+          "startSeconds": 19.2,
+          "durationSeconds": 9.6
+        },
+        {
+          "id": "ENclip09733",
+          "startSeconds": 28.799999999999997,
+          "durationSeconds": 9.6
+        }
+      ],
+      "comparison": {
+        "left": "original",
+        "right": "inferred",
+        "audio": "driving",
+        "relativeOffsetMs": 0,
+        "width": 1536,
+        "height": 768
+      },
+      "media": {
+        "source": "assets/demos/opening-anime-musetalk15-v2-source.mp4",
+        "result": "assets/demos/opening-anime-musetalk15-v2-result.mp4",
+        "audio": "assets/demos/opening-anime-musetalk15-v2-audio.wav",
+        "comparison": "assets/demos/opening-anime-musetalk15-v2-comparison.mp4"
+      }
+    },
+    {
+      "id": "opening-anime-latentsync15-v2",
+      "model": "LatentSync 1.5",
+      "language": "English",
+      "domain": "animation",
+      "condition": "same-pair reconstruction",
+      "presentation": "extended",
+      "compilation": true,
+      "existingSeparatedVocals": false,
+      "frames": 960,
+      "durationSeconds": 38.4,
+      "width": 768,
+      "height": 768,
+      "languageEvidence": "Existing animation release language metadata; synthetic LongCat reference, not independent AV ground truth",
+      "segments": [
+        {
+          "id": "ENclip05254",
+          "startSeconds": 0,
+          "durationSeconds": 9.6
+        },
+        {
+          "id": "ENclip05418",
+          "startSeconds": 9.6,
+          "durationSeconds": 9.6
+        },
+        {
+          "id": "ENclip07292",
+          "startSeconds": 19.2,
+          "durationSeconds": 9.6
+        },
+        {
+          "id": "ENclip09733",
+          "startSeconds": 28.799999999999997,
+          "durationSeconds": 9.6
+        }
+      ],
+      "comparison": {
+        "left": "original",
+        "right": "inferred",
+        "audio": "driving",
+        "relativeOffsetMs": 0,
+        "width": 1536,
+        "height": 768
+      },
+      "media": {
+        "source": "assets/demos/opening-anime-latentsync15-v2-source.mp4",
+        "result": "assets/demos/opening-anime-latentsync15-v2-result.mp4",
+        "audio": "assets/demos/opening-anime-latentsync15-v2-audio.wav",
+        "comparison": "assets/demos/opening-anime-latentsync15-v2-comparison.mp4"
+      }
+    }
+  ],
+  "limitations": [
+    "Selected examples are not population accuracy",
+    "Animation source is synthetic; same-pair reference is not independently certified AV ground truth",
+    "Cross-audio original mouth motion is not target-audio GT",
+    "Compilations contain four distinct clips, not a continuous38.4-second shot",
+    "No new inference or offset optimization; existing native tail frames outside input duration excluded"
+  ]
+}

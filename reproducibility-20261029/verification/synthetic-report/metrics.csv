@@ -1,0 +1,13 @@
+model_id,support,distance_ms,conditional_success,end_to_end_success,minimum_margin,negative_failure_rate_recording_speaker,positive_failure_rate_recording_speaker,available_records,all_recordings,tie_rate,any_tie_window_rate,negative_only_failure_windows,positive_only_failure_windows,both_failure_windows
+original,per_distance,40,1.0,1.0,0.7,0.0,0.0,1,1,0.0,0.0,0,0,0
+original,per_distance,80,1.0,1.0,0.7,0.0,0.0,1,1,0.0,0.0,0,0,0
+original,per_distance,120,1.0,1.0,0.7,0.0,0.0,1,1,0.0,0.0,0,0,0
+original,per_distance,160,1.0,1.0,0.7,0.0,0.0,1,1,0.0,0.0,0,0,0
+original,per_distance,240,1.0,1.0,0.7,0.0,0.0,1,1,0.0,0.0,0,0,0
+original,per_distance,320,1.0,1.0,0.7,0.0,0.0,1,1,0.0,0.0,0,0,0
+original,common_support,40,1.0,1.0,0.7,0.0,0.0,1,1,0.0,0.0,0,0,0
+original,common_support,80,1.0,1.0,0.7,0.0,0.0,1,1,0.0,0.0,0,0,0
+original,common_support,120,1.0,1.0,0.7,0.0,0.0,1,1,0.0,0.0,0,0,0
+original,common_support,160,1.0,1.0,0.7,0.0,0.0,1,1,0.0,0.0,0,0,0
+original,common_support,240,1.0,1.0,0.7,0.0,0.0,1,1,0.0,0.0,0,0,0
+original,common_support,320,1.0,1.0,0.7,0.0,0.0,1,1,0.0,0.0,0,0,0

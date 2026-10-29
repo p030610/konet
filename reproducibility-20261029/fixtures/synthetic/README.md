@@ -1,0 +1,1 @@
+﻿SYNTHETIC ONLY. One invented speaker/recording/window with center score 0.9 and offset scores 0.2 at six symmetric distances. No audiovisual media, model inference or measured dataset is represented. Expected strict both-win=1.0 at every distance for the artificial original-model row. Not a benchmark and not an AIHub dataset substitute.

@@ -1,0 +1,13 @@
+{"score_status":"valid","window_id":"synthetic-w1","direction":"A_to_B","lag_ms":0,"model_id":"original","fold":"B","score":0.9,"recording_id":"synthetic-r1","evaluation_mode":"diagnostic_score"}
+{"score_status":"valid","window_id":"synthetic-w1","direction":"A_to_B","lag_ms":-40,"model_id":"original","fold":"B","score":0.2,"recording_id":"synthetic-r1","evaluation_mode":"diagnostic_score"}
+{"score_status":"valid","window_id":"synthetic-w1","direction":"A_to_B","lag_ms":40,"model_id":"original","fold":"B","score":0.2,"recording_id":"synthetic-r1","evaluation_mode":"diagnostic_score"}
+{"score_status":"valid","window_id":"synthetic-w1","direction":"A_to_B","lag_ms":-80,"model_id":"original","fold":"B","score":0.2,"recording_id":"synthetic-r1","evaluation_mode":"diagnostic_score"}
+{"score_status":"valid","window_id":"synthetic-w1","direction":"A_to_B","lag_ms":80,"model_id":"original","fold":"B","score":0.2,"recording_id":"synthetic-r1","evaluation_mode":"diagnostic_score"}
+{"score_status":"valid","window_id":"synthetic-w1","direction":"A_to_B","lag_ms":-120,"model_id":"original","fold":"B","score":0.2,"recording_id":"synthetic-r1","evaluation_mode":"diagnostic_score"}
+{"score_status":"valid","window_id":"synthetic-w1","direction":"A_to_B","lag_ms":120,"model_id":"original","fold":"B","score":0.2,"recording_id":"synthetic-r1","evaluation_mode":"diagnostic_score"}
+{"score_status":"valid","window_id":"synthetic-w1","direction":"A_to_B","lag_ms":-160,"model_id":"original","fold":"B","score":0.2,"recording_id":"synthetic-r1","evaluation_mode":"diagnostic_score"}
+{"score_status":"valid","window_id":"synthetic-w1","direction":"A_to_B","lag_ms":160,"model_id":"original","fold":"B","score":0.2,"recording_id":"synthetic-r1","evaluation_mode":"diagnostic_score"}
+{"score_status":"valid","window_id":"synthetic-w1","direction":"A_to_B","lag_ms":-240,"model_id":"original","fold":"B","score":0.2,"recording_id":"synthetic-r1","evaluation_mode":"diagnostic_score"}
+{"score_status":"valid","window_id":"synthetic-w1","direction":"A_to_B","lag_ms":240,"model_id":"original","fold":"B","score":0.2,"recording_id":"synthetic-r1","evaluation_mode":"diagnostic_score"}
+{"score_status":"valid","window_id":"synthetic-w1","direction":"A_to_B","lag_ms":-320,"model_id":"original","fold":"B","score":0.2,"recording_id":"synthetic-r1","evaluation_mode":"diagnostic_score"}
+{"score_status":"valid","window_id":"synthetic-w1","direction":"A_to_B","lag_ms":320,"model_id":"original","fold":"B","score":0.2,"recording_id":"synthetic-r1","evaluation_mode":"diagnostic_score"}
